@@ -7,3 +7,8 @@
   
 ### Core Techniques  
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
+</br>
+
+### Tesing Infra
+  * Windows VMs - https://www.microsoft.com/en-us/evalcenter
+
