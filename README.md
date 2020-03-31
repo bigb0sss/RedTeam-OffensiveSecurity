@@ -9,6 +9,7 @@
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
 </br>
 
-### Tesing Infra
-  * Windows VMs - https://www.microsoft.com/en-us/evalcenter
+### Lab Infrastructure
+  * Windows Server VMs - https://www.microsoft.com/en-us/evalcenter
+  * Windows 10 - https://www.microsoft.com/en-us/software-download/windows10ISO
 
