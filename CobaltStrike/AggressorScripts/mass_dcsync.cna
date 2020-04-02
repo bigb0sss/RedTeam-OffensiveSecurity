@@ -40,4 +40,4 @@ popup beacon_bottom {
     item "Mass-DCSync" {
         mass-dcsync($1);
     }
-}
+} 
