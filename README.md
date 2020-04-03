@@ -1,8 +1,11 @@
 # RedTeam
 
 
+
+
 ### Red Team Researchers
   * Vincent Yiu - https://vincentyiu.com
+  * Outflank - https://github.com/outflanknl
 </br>
   
 ### Core Techniques  
