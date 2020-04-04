@@ -311,7 +311,7 @@ post-ex {
 	set spawnto_x64 "%windir%\\sysnative\\<mfpmp>.exe";             # Do not specify %windir%\system32 or c:\windows\system32 directly
 	set obfuscate "[true|false]";                                   # Obfuscate the permissions and content of our post-ex DLLs
 	set smartinject "[true|false]";                                 # Directs Beacon to embed key function pointers (ex) GetProcAddress, LoadLibrary) into its same-arch post-ex DLLs. 
-                                                                    # This allows post-ex DLLs to bootstrap themselves in a new process without shellcode-like behavior that is detected and mitigated by watching memory accesses to the PEB and kernel32.dll.
+                                                                    	# This allows post-ex DLLs to bootstrap themselves in a new process without shellcode-like behavior that is detected and mitigated by watching memory accesses to the PEB and kernel32.dll.
 
 	set amsi_disable "[true|false]";                                # Disable AMSI (Antimalware Scan Interface) in powerpick, execute-assembly and psinject before loading .NET or PS code
 }
