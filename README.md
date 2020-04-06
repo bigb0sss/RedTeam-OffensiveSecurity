@@ -10,6 +10,9 @@
  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
 </br>
 
+### AV/AMSI Evasions
+ * xencrypt - https://github.com/the-xentropy/xencrypt (*PowerShell)
+
 ## Red Team Researchers
   * Vincent Yiu - https://vincentyiu.com
   * Outflank - https://github.com/outflanknl
