@@ -23,7 +23,7 @@ set host_stage "[true|false]";            # Staged payload allow or disallow (No
 set useragent "<Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.177>";    # User-Agent Setup
 
 ### DNS Beacon Block
-set dns_idel "<8.8.8.8>";                 # IP to indicate no tasks available. Avoid using bogan address "0.0.0.0" (This can be picked up as IOC)
+set dns_idel "<8.8.8.8>";                 # IP to indicate no tasks available. Avoid using bogon address "0.0.0.0" (This can be picked up as IOC)
 set maxdns "[0-255]";                     # Maximum length of hostname when uploading data over DNS (0-255)
 set dns_sleep "<1000>";                   # Force a sleep prior to each individual DNS request. (in milliseconds)
 set dns_stager_prepend "";                # Prepend text to payload stage delivered to DNS TXT record stager
