@@ -10,8 +10,13 @@
  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
 </br>
 
+### Commands
+* LOLBAS - https://lolbas-project.github.io/#
+</br>
+
 ### AV/AMSI Evasions
  * xencrypt - https://github.com/the-xentropy/xencrypt (*PowerShell)
+</br>
 
 ## Red Team Researchers
   * Vincent Yiu - https://vincentyiu.com
