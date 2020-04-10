@@ -1,3 +1,4 @@
 # C# Tools
 
-|Name|Description|Command|
+| Name | Description | Command |
+| :--- | :---: | :--- |
