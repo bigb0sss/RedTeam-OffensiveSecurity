@@ -24,6 +24,7 @@
 ## Red Team Researchers
   * Vincent Yiu - https://vincentyiu.com
   * Outflank - https://github.com/outflanknl
+  * Bank Security - https://github.com/BankSecurity/Red_Team
 </br>
   
 
