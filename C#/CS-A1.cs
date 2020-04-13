@@ -16,14 +16,17 @@ using System.DirectoryServices.AccountManagement;
 //      @bigb0ss
 // 
 // Usage:
-//      CS> execute-assembly cs-a1.exe
+//      CS> execute-assembly CS_A1.exe
 //
 // Enumeration:
 //      (1) Computer Name
 //      (2) User Info
-//      (3) Network Interface Info
-//      (4) TCP Connections
-//      (5) Process List
+//      (3) Local Admin Enum
+//      (4) Domain Enum
+//      (5) DC Enum
+//      (6) Network Interface Info
+//      (7) TCP Connections
+//      (8) Process List
 
 namespace csA1
 {
