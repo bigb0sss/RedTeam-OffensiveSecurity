@@ -5,6 +5,10 @@ using System.Diagnostics;
 using System.Management;
 using System.Net.NetworkInformation;
 using ConsoleTables;
+using System.DirectoryServices;
+using System.Collections;
+using System.DirectoryServices.ActiveDirectory;
+using System.DirectoryServices.AccountManagement;
 
 // CS-A1
 //
@@ -32,9 +36,18 @@ namespace csA1
             UserInfo();
 
             Console.Out.WriteLine("");
-            NetworkInfo();
-            DefaltGateway();
+            localAdmins();
 
+            Console.Out.WriteLine("");
+            EnumerateDomains();
+
+            Console.Out.WriteLine("");
+            EnumerateDCs();
+
+            Console.Out.WriteLine("");
+            NetworkInfo();
+            //DefaltGateway();
+  
             Console.Out.WriteLine("");
             Console.Out.WriteLine("[+] Netstat");
             netstat();
@@ -93,6 +106,7 @@ namespace csA1
             }
         }
 
+        /*
         static void DefaltGateway()
         {
             var defaultGateway =
@@ -103,6 +117,7 @@ namespace csA1
 
             Console.WriteLine("- Default Gateway: {0}", defaultGateway.First());
         }
+        */
 
         // User Info
         static void UserInfo()
@@ -110,6 +125,48 @@ namespace csA1
             Console.Out.WriteLine("[+] User_Info : {0}\\{1}",
                 Environment.UserDomainName,
                 Environment.UserName);
+        }
+
+        // Local Admin Enumeration
+        static void localAdmins()
+        {
+            DirectoryEntry localMachine = new DirectoryEntry("WinNT://" + Environment.MachineName + ",Computer");
+            DirectoryEntry admGroup = localMachine.Children.Find("administrators", "group");
+            object members = admGroup.Invoke("members", null);
+
+            Console.WriteLine("[+] Local Administrators: ");
+            foreach (object groupMember in (IEnumerable)members)
+            {
+                DirectoryEntry member = new DirectoryEntry(groupMember);
+                Console.WriteLine("\t{0}", member.Name);
+            }
+        }
+
+        // Domain Enumerations
+        public static void EnumerateDomains()
+        {
+            Forest currentForest = Forest.GetCurrentForest();
+            Console.Out.WriteLine("[+] Current Domain: {0}", currentForest);
+            Console.Out.WriteLine("[+] All Forest Domains: ");
+
+            // Querying Forest Domains
+            DomainCollection myDomains = currentForest.Domains;
+            foreach (Domain objDomain in myDomains)
+            {
+                Console.Out.WriteLine("\t{0}", objDomain.Name);
+            }
+        }
+
+        // DC Enumerations
+        public static void EnumerateDCs()
+        {
+            Domain domain = Domain.GetCurrentDomain();
+            Console.Out.WriteLine("[+] Domain Controllers: ");
+
+            foreach (DomainController dc in domain.DomainControllers)
+            {
+                Console.Out.WriteLine("\t{0}", dc.Name);
+            }
         }
 
         // Netstat Information
