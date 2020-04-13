@@ -16,7 +16,7 @@ using System.DirectoryServices.AccountManagement;
 //      @bigb0ss
 // 
 // Usage:
-//      CS> execute-assembly CS_A1.exe
+//      CS> execute-assembly CS-A1.exe
 //
 // Enumeration:
 //      (1) Computer Name
