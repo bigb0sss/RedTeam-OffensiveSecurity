@@ -5,6 +5,10 @@
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
 </br>
 
+## Password-Spray
+* MSOLSpray - https://github.com/dafthack/MSOLSpray
+
+
 ## Post-Exploitation
 ### AD Recon/Survey
  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
