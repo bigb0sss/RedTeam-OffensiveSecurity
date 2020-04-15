@@ -7,7 +7,8 @@
 
 ## Password-Spray
 * MSOLSpray - https://github.com/dafthack/MSOLSpray
-
+* o365enum.py - https://github.com/gremwell/o365enum
+</br>
 
 ## Post-Exploitation
 ### AD Recon/Survey
