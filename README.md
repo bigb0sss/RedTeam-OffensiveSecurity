@@ -1,4 +1,7 @@
 # RedTeam
+## OSINT
+ * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
+</br>
 
 ## C2 Infrastructure
 ### Redirectors
