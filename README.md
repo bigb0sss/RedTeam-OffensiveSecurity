@@ -1,4 +1,6 @@
 # RedTeam
+![Image](https://github.com/bigb0sss/RedTeam/blob/master/redteam_logo_bottom.png)
+
 ## OSINT
  * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
 </br>
