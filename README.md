@@ -1,6 +1,6 @@
 # RedTeam
 <p align="center">
-  <img width="460" height="300" src="">
+  <img width="460" height="300" src="https://github.com/bigb0sss/RedTeam/blob/master/redteam_logo_top.png">
 </p>
 
 ## OSINT
