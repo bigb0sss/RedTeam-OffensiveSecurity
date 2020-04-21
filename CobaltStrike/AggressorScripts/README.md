@@ -3,7 +3,7 @@
 Collections of useful CobaltStrike 4.0+ AggressorScripts
 
 ### Cred Dump
-* <b>mass-dcsync.cna</b> - DSCync a list of the specified users
+* <b>mass-dcsync.cna</b> - DSCync a list of the specified users (Credit @Bluescreenofjeff)
 
 
 ## Aggressor Scripts Repos
