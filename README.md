@@ -10,6 +10,7 @@
 ## C2 Infrastructure
 ### Cobal Strike
   * Malleable C2 (Guideline) - [CS4.0_guideline.profile](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
+  * [Cobalt Strike Training Review Part1](https://medium.com/@bigb0ss/red-team-review-of-red-team-operations-with-cobalt-strike-2019-training-course-part-1-962c510565aa)
 
 ### Redirectors
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
