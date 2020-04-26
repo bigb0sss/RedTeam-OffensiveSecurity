@@ -8,6 +8,8 @@
 </br>
 
 ## C2 Infrastructure
+### Cobal Strike
+
 ### Redirectors
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
 </br>
