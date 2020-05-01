@@ -25,19 +25,17 @@
 ## Post-Exploitation
 ### AD Recon/Survey
  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
-</br>
 
 ### Offensive C#
 * C# Collection - https://github.com/midnightslacker/Sharp/blob/master/README.md
-</br>
 
 ### Commands
 * LOLBAS - https://lolbas-project.github.io/#
-</br>
 
 ### AV/AMSI Evasions
  * xencrypt - https://github.com/the-xentropy/xencrypt (*PowerShell)
 </br>
+
 
 ## Red Team Researchers
   * Vincent Yiu - https://vincentyiu.com
