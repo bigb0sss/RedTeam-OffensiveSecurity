@@ -15,6 +15,7 @@
 
 ### Redirectors
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
+<br />  
 
 ## Password-Spray
 * MSOLSpray - https://github.com/dafthack/MSOLSpray
