@@ -4,7 +4,7 @@
 </p>
 
 ## OSINT
- * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
+* Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
 </br>
 
 ## C2 Infrastructure
@@ -15,7 +15,6 @@
 
 ### Redirectors
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
-</br>
 
 ## Password-Spray
 * MSOLSpray - https://github.com/dafthack/MSOLSpray
