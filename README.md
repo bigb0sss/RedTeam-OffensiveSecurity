@@ -52,5 +52,6 @@
 <br />
   
  ## Sexy Resources
+  * MITRE ATT&CK - https://attack.mitre.org/
   * MalwareNews - https://malware.news/
 
