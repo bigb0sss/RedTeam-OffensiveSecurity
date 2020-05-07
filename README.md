@@ -37,7 +37,7 @@
 </br>
 
 
-## Red Team Researchers
+## RedTeam Researchers
   * Vincent Yiu - https://vincentyiu.com
   * Outflank - https://github.com/outflanknl
   * Bank Security - https://github.com/BankSecurity/Red_Team
@@ -49,4 +49,6 @@
 ## Lab VMs
   * Windows Server VMs - https://www.microsoft.com/en-us/evalcenter
   * Windows 10 - https://www.microsoft.com/en-us/software-download/windows10ISO
+</br>
+  
 
