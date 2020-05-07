@@ -46,7 +46,7 @@
 <br />
   
 
-## Lab VMs
+## Lab Resources
   * Windows Server VMs - https://www.microsoft.com/en-us/evalcenter
   * Windows 10 - https://www.microsoft.com/en-us/software-download/windows10ISO
 <br />
@@ -54,4 +54,10 @@
  ## Sexy Resources
   * MITRE ATT&CK - https://attack.mitre.org/
   * MalwareNews - https://malware.news/
+<br />
 
+
+# BlueTeam
+
+## Lab Resources
+  * Detection Lab - https://github.com/clong/DetectionLab
