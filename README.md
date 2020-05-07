@@ -29,7 +29,7 @@
 ### Offensive C#
 * C# Collection - https://github.com/midnightslacker/Sharp/blob/master/README.md
 
-### Commands
+### LiveOffTheLand
 * LOLBAS - https://lolbas-project.github.io/#
 
 ### AV/AMSI Evasions
