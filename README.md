@@ -5,7 +5,7 @@
 
 ## OSINT
 * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
-</br>
+<br />
 
 ## C2 Infrastructure
 ### Cobal Strike
@@ -34,7 +34,7 @@
 
 ### AV/AMSI Evasions
  * xencrypt - https://github.com/the-xentropy/xencrypt (*PowerShell)
-</br>
+<br />
 
 
 ## RedTeam Researchers
@@ -43,12 +43,14 @@
   * Bank Security - https://github.com/BankSecurity/Red_Team
   * Infosecn1nja - https://github.com/infosecn1nja (Redteam-Toolkit = AWESOME)
   * Yeyintminthuhtut - https://github.com/yeyintminthuhtut
-</br>
+<br />
   
 
 ## Lab VMs
   * Windows Server VMs - https://www.microsoft.com/en-us/evalcenter
   * Windows 10 - https://www.microsoft.com/en-us/software-download/windows10ISO
-</br>
+<br />
   
+ ## Sexy Resources
+  * MalwareNews - https://malware.news/
 
