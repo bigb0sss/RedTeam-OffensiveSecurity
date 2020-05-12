@@ -34,6 +34,7 @@
 
 ### AV/AMSI Evasions
  * xencrypt - https://github.com/the-xentropy/xencrypt (*PowerShell)
+ * FalconStrike - https://github.com/slaeryan/FALCONSTRIKE
 <br />
 
 
