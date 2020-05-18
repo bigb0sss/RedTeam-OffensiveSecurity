@@ -27,6 +27,9 @@
 ### AD Recon/Survey
  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
 
+### Lateral Movement
+ * SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
+
 ### Offensive C#
 * C# Collection - https://github.com/midnightslacker/Sharp/blob/master/README.md
 
