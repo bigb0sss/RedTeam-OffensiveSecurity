@@ -8,9 +8,8 @@
 
 ### Cloud Recon
 * cloud_enum - https://github.com/initstring/cloud_enum
-* MicroBurst - https://github.com/NetSPI/MicroBurst
-
-<br />
+* MicroBurst - https://github.com/NetSPI/MicroBurst (AZURE)
+* pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
 
 ## C2 Infrastructure
 ### Cobal Strike
