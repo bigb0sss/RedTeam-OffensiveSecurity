@@ -21,6 +21,11 @@
   * SharpeningCobaltStrike - https://github.com/cube0x0/SharpeningCobaltStrike
 ### Redirectors
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
+  
+### Proxy Infrastructure Setup
+  * Cloud-proxy - https://github.com/tomsteele/cloud-proxy
+  * Proxy-ng - https://github.com/jamesbcook/proxy-ng
+  * ProxyCannon - https://github.com/proxycannon/proxycannon-ng
 <br />  
 
 ## ⛩ Password-Spray
