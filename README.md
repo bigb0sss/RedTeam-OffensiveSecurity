@@ -2,7 +2,7 @@
   <img width="600" height="400" src="https://github.com/bigb0sss/RedTeam/blob/master/redteam_logo_top.png">
 </p>
 
-## OSINT
+## ⛩ OSINT
 ### Target Population Collection
 * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
 
