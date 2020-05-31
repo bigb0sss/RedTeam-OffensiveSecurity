@@ -2,7 +2,7 @@
   <img width="600" height="400" src="https://github.com/bigb0sss/RedTeam/blob/master/redteam_logo_top.png">
 </p>
 
-## ⛩ OSINT
+## OSINT
 ### Target Population Collection
 * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
 
@@ -12,7 +12,7 @@
 * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
 <br />
 
-## ⛩ C2 Infrastructure
+## C2 Infrastructure
 ### Cobal Strike
   * 🦊 Malleable C2 (Guideline) - [CS4.0_guideline.profile](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
   * Cobalt Strike Training Review 
@@ -28,12 +28,12 @@
   * ProxyCannon - https://github.com/proxycannon/proxycannon-ng
 <br />  
 
-## ⛩ Password-Spray
+## Password-Spray
 * MSOLSpray - https://github.com/dafthack/MSOLSpray
 * o365enum.py - https://github.com/gremwell/o365enum
 </br>
 
-## ⛩ Post-Exploitation
+## Post-Exploitation
 ### AD Recon/Survey
  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
 
