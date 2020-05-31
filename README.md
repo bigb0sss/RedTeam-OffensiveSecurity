@@ -2,7 +2,7 @@
   <img width="600" height="400" src="https://github.com/bigb0sss/RedTeam/blob/master/redteam_logo_top.png">
 </p>
 
-## ⛩ OSINT
+## ⛩  OSINT
 ### Target Population Collection
 * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
 
@@ -12,7 +12,7 @@
 * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
 <br />
 
-## ⛩ C2 Infrastructure
+## ⛩  C2 Infrastructure
 ### Cobal Strike
   * Malleable C2 (Guideline) 🚨 - [CS4.0_guideline.profile](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
   * Cobalt Strike Training Review 
@@ -28,12 +28,12 @@
   * ProxyCannon - https://github.com/proxycannon/proxycannon-ng
 <br />  
 
-## ⛩ Password-Spray
+## ⛩  Password-Spray
 * MSOLSpray - https://github.com/dafthack/MSOLSpray
 * o365enum.py - https://github.com/gremwell/o365enum
 </br>
 
-## ⛩ Post-Exploitation
+## ⛩  Post-Exploitation
 ### AD Recon/Survey
  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
 
@@ -53,7 +53,7 @@
 <br />
 
 
-## ⛩ RedTeam Researchers/Githubs
+## ⛩  RedTeam Researchers/Githubs
   * Vincent Yiu - https://vincentyiu.com
   * Outflank - https://github.com/outflanknl
   * Bank Security - https://github.com/BankSecurity/Red_Team
@@ -62,7 +62,7 @@
 <br />
   
 
-## ⛩ Lab Resources
+## ⛩  Lab Resources
   * Windows Server VMs - https://www.microsoft.com/en-us/evalcenter
   * Windows 10 - https://www.microsoft.com/en-us/software-download/windows10ISO
 <br />
