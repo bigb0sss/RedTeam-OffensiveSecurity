@@ -15,7 +15,7 @@ sleep 60 50                                 ; Sleep 60 sec with 50% of jitter (C
 spawn [x86|x64] [Listener]
 inject [PID] [x86|x64] [Listener]
 
-; Parent Process Modification
+### Parent Process Modification
 ppid [Choice of your parent process (e.g., iexplore.exe)]
 spawnto [x86|x64] [New parent process]
 ```
