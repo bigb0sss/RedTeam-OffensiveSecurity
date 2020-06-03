@@ -4,13 +4,17 @@
 
 ## Command References
 
-
 ### Beacons
-#### sleep
+#### Sleep
 ```css
 sleep 60 50                                 ; Sleep 60 sec with 50% of jitter (Call back between 30 to 60 secs randomly) 
 ```
 
+#### Session Passing
+```css
+spawn [x86|x64] <Listener>
+spawnu
+```
 
 
 #### SMB Beacn
