@@ -20,22 +20,22 @@ run [command]
 powershell-import [/path/to/your.ps1]       ; Running it from your localhost
 powershell [cmdlet] [args]
 ```
-##### powerpick - using PS w/o powershell.exe
+##### powerpick (Using PS w/o powershell.exe)
 ```css
 powrepick [cmdlet] [args]
 ```
 
-##### psinject - using PS within another process
+##### psinject (Using PS within another process)
 ```css
 psinject [PID] [x86|x64] [cmdlet] [args]
 ```
 
-#### .NET
+##### .NET
 ```css
 execute-assembly [/path/to/your.exe]        ; Running it from your localhost
 ```
 
-#### cmd.exe
+##### cmd.exe
 ```css
 shell [command] [args]
 ```
