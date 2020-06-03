@@ -14,7 +14,7 @@ sleep 60 50                                 ; Sleep 60 sec with 50% of jitter (C
 ```css
 run [command]
 ```
-#### Command Execution (powershell.exe)
+##### Command Execution (powershell.exe)
 ```css
 powershell-import [/path/to/your.ps1]       ; Running it from your localhost
 powershell [cmdlet] [args]
