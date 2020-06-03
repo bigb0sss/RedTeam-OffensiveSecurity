@@ -7,7 +7,7 @@
 ### Beacons
 #### Sleep
 ```
-sleep 60 50                                 ; Sleep 60 sec with 50% of jitter (Call back between 30 to 60 secs randomly) 
+sleep 60 50               ; Sleep 60 sec with 50% of jitter (Call back between 30 to 60 secs randomly) 
 ```
 
 #### Command Execution
