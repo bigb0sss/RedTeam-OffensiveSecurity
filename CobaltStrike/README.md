@@ -1,7 +1,7 @@
 # CobaltStrike
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/cs_logo.png">
+  <img width="500" height="100" src="https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/cs_logo.png">
 </p>
 
 ## Command References
