@@ -10,11 +10,33 @@
 sleep 60 50                                 ; Sleep 60 sec with 50% of jitter (Call back between 30 to 60 secs randomly) 
 ```
 
-#### Command Execution
+#### Command Execution (Default)
 ```css
 run [command]
+```
+#### Command Execution (powershell.exe)
+```css
+powershell-import [/path/to/your.ps1]       ; Running it from your localhost
+powershell [cmdlet] [args]
+```
+#### Command Execution (powerpick - using PS w/o powershell.exe)
+```css
+powrepick [cmdlet] [args]
+```
 
-//powershell.exe
+#### Command Execution (psinject - using PS within another process)
+```css
+psinject [PID] [x86|x64] [cmdlet] [args]
+```
+
+#### Command Execution (.NET)
+```css
+execute-assembly [/path/to/your.exe]        ; Running it from your localhost
+```
+
+#### Command Execution (cmd.exe)
+```css
+shell [command] [args]
 ```
 
 #### Session Passing
