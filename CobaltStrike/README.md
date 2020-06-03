@@ -10,6 +10,13 @@
 sleep 60 50                                 ; Sleep 60 sec with 50% of jitter (Call back between 30 to 60 secs randomly) 
 ```
 
+#### Command Execution
+```css
+run [command]
+
+//powershell.exe
+```
+
 #### Session Passing
 ```css
 spawn [x86|x64] [Listener]
@@ -21,7 +28,6 @@ inject [PID] [x86|x64] [Listener]
 ppid [Choice of your parent process (e.g., iexplore.exe)]
 spawnto [x86|x64] [New parent process]
 ```
-
 
 #### SMB Beacn
 ```css
