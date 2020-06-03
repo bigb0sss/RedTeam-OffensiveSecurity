@@ -1,5 +1,3 @@
-# CobaltStrike
-
 <p align="center">
   <img width="500" height="100" src="https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/cs_logo.png">
 </p>
