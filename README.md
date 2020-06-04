@@ -32,6 +32,7 @@
 ## Password-Spray
 * MSOLSpray - https://github.com/dafthack/MSOLSpray
 * o365enum.py - https://github.com/gremwell/o365enum
+* goPassGen - https://github.com/bigb0sss/goPassGen (*PasswordSpray List Generator)
 </br>
 
 ## Post-Exploitation
