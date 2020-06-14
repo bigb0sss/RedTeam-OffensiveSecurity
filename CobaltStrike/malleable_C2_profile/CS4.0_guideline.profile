@@ -8,6 +8,7 @@
 #   * https://www.cobaltstrike.com/help-malleable-postex
 #
 # Author: @bigb0ss
+# Github: https://github.com/bigb0sss
 #
 # Updates:
 #   04/02/2020
