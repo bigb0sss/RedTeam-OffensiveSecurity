@@ -3,7 +3,11 @@
 </p>
 
 ## OSINT
-### Target Population Collection
+### Passive Discovery
+* Amass - https://github.com/OWASP/Amass (Attack Surface Mapping)
+* Metabigor - https://github.com/j3ssie/metabigor (Non-API OSINT)
+
+### Target User Population Collection
 * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
 
 ### Cloud Recon
