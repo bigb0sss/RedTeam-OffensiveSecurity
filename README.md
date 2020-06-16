@@ -14,6 +14,9 @@
 * cloud_enum - https://github.com/initstring/cloud_enum
 * MicroBurst - https://github.com/NetSPI/MicroBurst (AZURE)
 * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
+
+### Active Directory Recon
+* DNS Enum - https://github.com/dirkjanm/adidnsdump
 <br />
 
 ## C2 Infrastructure
