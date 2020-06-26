@@ -16,8 +16,9 @@
 * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
 * Cloud_Pentest_Cheatsheet - https://github.com/dafthack/CloudPentestCheatsheets
 
-### Active Directory Recon
-* DNS Enum - https://github.com/dirkjanm/adidnsdump
+### Microsfot (ADFS)
+* ADFSpoof - https://github.com/fireeye/ADFSpoof (Forge ADFS security tokens)
+
 <br />
 
 ## C2 Infrastructure
@@ -46,6 +47,7 @@
 ## Post-Exploitation
 ### AD Recon/Survey
  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
+ * DNS Enum - https://github.com/dirkjanm/adidnsdump
 
 ### Lateral Movement
  * SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
