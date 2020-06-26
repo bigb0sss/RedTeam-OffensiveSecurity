@@ -16,7 +16,7 @@
 * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
 * Cloud_Pentest_Cheatsheet - https://github.com/dafthack/CloudPentestCheatsheets
 
-### Microsfot (ADFS)
+### Microsoft (ADFS)
 * ADFSpoof - https://github.com/fireeye/ADFSpoof (Forge ADFS security tokens)
 
 <br />
