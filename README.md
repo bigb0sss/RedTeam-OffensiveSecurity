@@ -14,6 +14,7 @@
 * cloud_enum - https://github.com/initstring/cloud_enum
 * MicroBurst - https://github.com/NetSPI/MicroBurst (AZURE)
 * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
+* Cloud_Pentest_Cheatsheet - https://github.com/dafthack/CloudPentestCheatsheets
 
 ### Active Directory Recon
 * DNS Enum - https://github.com/dirkjanm/adidnsdump
