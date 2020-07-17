@@ -71,6 +71,7 @@
   * Bank Security - https://github.com/BankSecurity/Red_Team
   * Infosecn1nja - https://github.com/infosecn1nja (Redteam-Toolkit = AWESOME)
   * Yeyintminthuhtut - https://github.com/yeyintminthuhtut
+  * RedCanary (Atomic RedTeam) - https://github.com/redcanaryco/atomic-red-team
 <br />
   
 
