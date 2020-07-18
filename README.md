@@ -64,6 +64,12 @@
  * AV_Bypass - https://github.com/Techryptic/AV_Bypass
 <br />
 
+## Exploit Dev
+### Windows
+  * https://github.com/Ondrik8/exploit
+
+### Nix
+
 
 ##  RedTeam Researchers/Githubs
   * Vincent Yiu - https://vincentyiu.com
