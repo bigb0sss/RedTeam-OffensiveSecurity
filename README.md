@@ -69,7 +69,7 @@
   * https://github.com/Ondrik8/exploit
 
 ### Nix
-
+<br />
 
 ##  RedTeam Researchers/Githubs
   * Vincent Yiu - https://vincentyiu.com
