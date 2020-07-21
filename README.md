@@ -19,6 +19,8 @@
 ### Microsoft (ADFS)
 * ADFSpoof - https://github.com/fireeye/ADFSpoof (Forge ADFS security tokens)
 
+### Web App
+* Wordpress Exploit Framework - https://github.com/rastating/wordpress-exploit-framework
 <br />
 
 ## C2 Infrastructure
@@ -42,6 +44,7 @@
 * MSOLSpray - https://github.com/dafthack/MSOLSpray
 * o365enum.py - https://github.com/gremwell/o365enum
 * goPassGen - https://github.com/bigb0sss/goPassGen (*PasswordSpray List Generator)
+* go365 - https://github.com/optiv/Go365 (Microsoft SOAP API endpoint on login.microsoftonline.com) 
 </br>
 
 ## Post-Exploitation
