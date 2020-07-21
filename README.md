@@ -42,7 +42,7 @@
 
 ## Password-Spray
 * MSOLSpray - https://github.com/dafthack/MSOLSpray
-* o365enum.py - https://github.com/gremwell/o365enum
+* o365enum.py - https://github.com/gremwell/o365enum (Microsoft ActiveSync)
 * goPassGen - https://github.com/bigb0sss/goPassGen (*PasswordSpray List Generator)
 * go365 - https://github.com/optiv/Go365 (Microsoft SOAP API endpoint on login.microsoftonline.com) 
 </br>
