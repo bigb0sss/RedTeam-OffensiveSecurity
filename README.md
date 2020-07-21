@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600" height="400" src="https://github.com/bigb0sss/RedTeam/blob/master/redteam_logo.png">
+  <img width="681" height="369" src="https://github.com/bigb0sss/RedTeam/blob/master/redteam_logo.png">
 </p>
 
 ## OSINT
