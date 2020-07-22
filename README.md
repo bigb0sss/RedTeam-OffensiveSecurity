@@ -20,7 +20,7 @@
 * ADFSpoof - https://github.com/fireeye/ADFSpoof (Forge ADFS security tokens)
 
 ### Web App
-* Wordpress Exploit Framework - https://github.com/rastating/wordpress-exploit-framework
+* Wordpress-Exploit-Framework - https://github.com/rastating/wordpress-exploit-framework
 <br />
 
 ## C2 Infrastructure
