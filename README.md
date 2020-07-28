@@ -23,6 +23,19 @@
 * Wordpress-Exploit-Framework - https://github.com/rastating/wordpress-exploit-framework
 <br />
 
+## Password-Spray
+* MSOLSpray - https://github.com/dafthack/MSOLSpray
+* o365enum.py - https://github.com/gremwell/o365enum (Microsoft ActiveSync)
+* goPassGen - https://github.com/bigb0sss/goPassGen (*PasswordSpray List Generator)
+* go365 - https://github.com/optiv/Go365 (Microsoft SOAP API endpoint on login.microsoftonline.com) 
+
+### IP Rotators
+Burp IPRotate - https://github.com/PortSwigger/ip-rotate (Utilizes AWS IP Gateway)
+ProxyCannon-NG - https://github.com/proxycannon/proxycannon-ng
+Cloud-proxy - https://github.com/tomsteele/cloud-proxy
+Proxy-NG - https://github.com/jamesbcook/proxy-ng
+</br>
+
 ## C2 Infrastructure
 ### Cobal Strike
   * Malleable C2 (Guideline) - [CS4.0_guideline.profile](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
@@ -40,12 +53,7 @@
   * ProxyCannon - https://github.com/proxycannon/proxycannon-ng
 <br />  
 
-## Password-Spray
-* MSOLSpray - https://github.com/dafthack/MSOLSpray
-* o365enum.py - https://github.com/gremwell/o365enum (Microsoft ActiveSync)
-* goPassGen - https://github.com/bigb0sss/goPassGen (*PasswordSpray List Generator)
-* go365 - https://github.com/optiv/Go365 (Microsoft SOAP API endpoint on login.microsoftonline.com) 
-</br>
+
 
 ## Post-Exploitation
 ### AD Recon/Survey
