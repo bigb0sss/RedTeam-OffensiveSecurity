@@ -21,7 +21,7 @@
 
 ### Web App
 * Wordpress-Exploit-Framework - https://github.com/rastating/wordpress-exploit-framework
-<br />
+<br /> 
 
 ## Password-Spray
 * MSOLSpray - https://github.com/dafthack/MSOLSpray
@@ -34,7 +34,7 @@ Burp IPRotate - https://github.com/PortSwigger/ip-rotate (Utilizes AWS IP Gatewa
 ProxyCannon-NG - https://github.com/proxycannon/proxycannon-ng
 Cloud-proxy - https://github.com/tomsteele/cloud-proxy
 Proxy-NG - https://github.com/jamesbcook/proxy-ng
-</br>
+<br /> 
 
 ## C2 Infrastructure
 ### Cobal Strike
