@@ -107,7 +107,7 @@
 ## Security Testing Practice Lab
   * Hackthebox - https://www.hackthebox.eu/
   * Cyberseclab - https://www.cyberseclabs.co.uk/ (AD Focus)
-
+<br />
 
 # BlueTeam
 
