@@ -99,10 +99,14 @@
   * Archive of WinVMs - https://archive.org/search.php?query=subject%3A%22IEVM%22
 <br />
   
- ## Sexy Resources
+## Sexy Resources
   * MITRE ATT&CK - https://attack.mitre.org/
   * MalwareNews - https://malware.news/
 <br />
+
+## Security Testing Practice Lab
+  * Hackthebox - https://www.hackthebox.eu/
+  * Cyberseclab - https://www.cyberseclabs.co.uk/ (AD Focus)
 
 
 # BlueTeam
