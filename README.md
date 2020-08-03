@@ -102,6 +102,7 @@
 ## Sexy Resources
   * MITRE ATT&CK - https://attack.mitre.org/
   * MalwareNews - https://malware.news/
+  * CWE - http://cwe.mitre.org/top25/archive/2019/2019_cwe_top25.html
 <br />
 
 ## Security Testing Practice Lab
