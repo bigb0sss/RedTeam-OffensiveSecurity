@@ -79,6 +79,7 @@
 ## Exploit Dev
 ### Windows
   * https://github.com/Ondrik8/exploit
+  * Undocumented Func (Win NT/2000/XP/Win7) - http://undocumented.ntinternals.net/
 
 ### Nix
 <br />
