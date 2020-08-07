@@ -35,10 +35,10 @@
   * ProxyCannon-NG - https://github.com/proxycannon/proxycannon-ng
   * Cloud-proxy - https://github.com/tomsteele/cloud-proxy
   * Proxy-NG - https://github.com/jamesbcook/proxy-ng
-<br />
 
 ### Default Password Check
   * CIRT - https://cirt.net/passwords
+<br />
 
 ## C2 Infrastructure
 ### Cobal Strike
