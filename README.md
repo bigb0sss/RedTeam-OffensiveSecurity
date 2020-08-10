@@ -21,6 +21,7 @@
 
 ### Web App
 * Wordpress-Exploit-Framework - https://github.com/rastating/wordpress-exploit-framework
+* Awesome-Web-Security - https://github.com/qazbnm456/awesome-web-security
 <br /> 
 
 ## Password-Spray
