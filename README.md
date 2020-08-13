@@ -59,11 +59,14 @@
 <br />  
 
 
-
 ## Post-Exploitation
 ### AD Recon/Survey
  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
  * DNS Enum - https://github.com/dirkjanm/adidnsdump
+
+### User Phishing
+  * pickl3 - https://github.com/hlldz/pickl3
+  * 
 
 ### Lateral Movement
  * SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
@@ -119,3 +122,6 @@
 
 ## Lab Resources
   * Detection Lab - https://github.com/clong/DetectionLab
+  
+# Disclaimer 
+All the credits belong to the original authors and publishers. 
