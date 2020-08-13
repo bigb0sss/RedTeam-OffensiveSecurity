@@ -66,12 +66,13 @@
 
 ### User Phishing
   * pickl3 - https://github.com/hlldz/pickl3
-  * 
+  * CredPhisher - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
 
 ### Lateral Movement
  * SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
 
 ### Offensive C#
+  * OffensiveCSharp - https://github.com/matterpreter/OffensiveCSharp
   * C# Collection - https://github.com/midnightslacker/Sharp/blob/master/README.md
 
 ### LiveOffTheLand
@@ -118,10 +119,10 @@
   * Cyberseclab - https://www.cyberseclabs.co.uk/ (AD Focus)
 <br />
 
-# BlueTeam
-
-## Lab Resources
+## BlueTeam
+### Lab Resources
   * Detection Lab - https://github.com/clong/DetectionLab
-  
-# Disclaimer 
+<br />
+
+## Disclaimer 
 All the credits belong to the original authors and publishers. 
