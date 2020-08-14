@@ -69,7 +69,8 @@
   * CredPhisher - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
 
 ### Lateral Movement
- * SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
+  * SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
+  * Pypykatz - https://github.com/skelsec/pypykatz (Pyhton implementation of Mimikatz)
 
 ### Offensive C#
   * OffensiveCSharp - https://github.com/matterpreter/OffensiveCSharp
