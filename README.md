@@ -25,6 +25,9 @@
 ### Web App
 * Wordpress-Exploit-Framework - https://github.com/rastating/wordpress-exploit-framework
 * Awesome-Web-Security - https://github.com/qazbnm456/awesome-web-security
+* Java Deserialization - https://github.com/frohoff/ysoserial
+* PHP Deserialization - https://github.com/ambionics/phpggc
+
 <br /> 
 
 ## Password-Spray
