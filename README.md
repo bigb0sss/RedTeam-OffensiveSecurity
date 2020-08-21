@@ -85,10 +85,13 @@
 ### LiveOffTheLand
   * LOLBAS - https://lolbas-project.github.io/#
 
-### AV/AMSI Evasions
+### AV/AMSI Evasion
  * xencrypt - https://github.com/the-xentropy/xencrypt (*PowerShell)
  * FalconStrike - https://github.com/slaeryan/FALCONSTRIKE
  * AV_Bypass - https://github.com/Techryptic/AV_Bypass
+ 
+### EDR Evasion
+ * SharpBlock - https://github.com/CCob/SharpBlock 
 <br />
 
 ## Exploit Dev
