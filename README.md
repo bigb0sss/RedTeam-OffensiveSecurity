@@ -92,7 +92,11 @@
  
 ### EDR Evasion
  * SharpBlock - https://github.com/CCob/SharpBlock 
+ 
+### PowerShell
+  * p3nt4 - https://github.com/p3nt4
 <br />
+
 
 ## Exploit Dev
 ### Windows
