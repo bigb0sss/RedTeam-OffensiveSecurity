@@ -135,5 +135,9 @@
   * Detection Lab - https://github.com/clong/DetectionLab
 <br />
 
+### Threat Detection
+  * KQL - https://github.com/DebugPrivilege/KQL
+<br />
+
 ## Disclaimer 
 All the credits belong to the original authors and publishers. 
