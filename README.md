@@ -75,6 +75,9 @@
   * pickl3 - https://github.com/hlldz/pickl3
   * CredPhisher - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
 
+### Browser Scripping
+  * SharpChromium - https://github.com/djhohnstein/SharpChromium
+
 ### Lateral Movement
   * SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
   * Pypykatz - https://github.com/skelsec/pypykatz (Pyhton implementation of Mimikatz)
