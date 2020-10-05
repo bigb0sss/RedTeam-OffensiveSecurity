@@ -28,6 +28,7 @@
 * Awesome-Web-Security - https://github.com/qazbnm456/awesome-web-security
 * Java Deserialization - https://github.com/frohoff/ysoserial
 * PHP Deserialization - https://github.com/ambionics/phpggc
+* Kubernetes - https://github.com/loodse/kubectl-hacking
 
 <br /> 
 
