@@ -135,6 +135,7 @@
   * MalwareNews - https://malware.news/
   * CWE - http://cwe.mitre.org/top25/archive/2019/2019_cwe_top25.html
   * CTID - https://github.com/center-for-threat-informed-defense
+  * SpritesMods - http://spritesmods.com/?art=main (Product Security)
 <br />
 
 ## Security Testing Practice Lab
