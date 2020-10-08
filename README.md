@@ -29,6 +29,7 @@
 * Java Deserialization - https://github.com/frohoff/ysoserial
 * PHP Deserialization - https://github.com/ambionics/phpggc
 * Kubernetes - https://github.com/loodse/kubectl-hacking
+* SSRF - https://github.com/jdonsec/AllThingsSSRF
 
 <br /> 
 
