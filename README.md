@@ -121,6 +121,7 @@
   * Infosecn1nja - https://github.com/infosecn1nja (Redteam-Toolkit = AWESOME)
   * Yeyintminthuhtut - https://github.com/yeyintminthuhtut
   * RedCanary (Atomic RedTeam) - https://github.com/redcanaryco/atomic-red-team
+  * kmkz - https://github.com/kmkz/Pentesting (Good cheat-sheets)
 <br />
   
 
