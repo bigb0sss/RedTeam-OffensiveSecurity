@@ -148,11 +148,11 @@
 ## BlueTeam
 ### Lab Resources
   * Detection Lab - https://github.com/clong/DetectionLab
-  * Sigma - https://github.com/Neo23x0/sigma (Generic Signature Format for SIEM)
 <br />
 
 ### Threat Detection
   * KQL - https://github.com/DebugPrivilege/KQL
+  * Sigma - https://github.com/Neo23x0/sigma (Generic Signature Format for SIEM)
 <br />
 
 ### Windows Security (What will BlueTeam look for?)
