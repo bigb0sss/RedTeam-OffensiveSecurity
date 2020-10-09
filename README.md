@@ -137,6 +137,7 @@
   * CWE - http://cwe.mitre.org/top25/archive/2019/2019_cwe_top25.html
   * CTID - https://github.com/center-for-threat-informed-defense
   * SpritesMods - http://spritesmods.com/?art=main (Product Security)
+  * Joeware - http://www.joeware.net/ (Windows AD Guru - Many AD Recon bins and amazing blogs)
 <br />
 
 ## Security Testing Practice Lab
