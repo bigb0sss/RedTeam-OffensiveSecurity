@@ -139,6 +139,7 @@
   * CTID - https://github.com/center-for-threat-informed-defense
   * SpritesMods - http://spritesmods.com/?art=main (Product Security)
   * Joeware - http://www.joeware.net/ (Windows AD Guru - Many AD Recon bins and amazing blogs)
+  * Tenable - https://github.com/tenable/poc (Exploit POCs)
 <br />
 
 ## Security Testing Practice Lab
