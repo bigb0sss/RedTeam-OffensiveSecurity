@@ -95,6 +95,8 @@
  * xencrypt - https://github.com/the-xentropy/xencrypt (*PowerShell)
  * FalconStrike - https://github.com/slaeryan/FALCONSTRIKE
  * AV_Bypass - https://github.com/Techryptic/AV_Bypass
+ * DotNetToJScript - https://github.com/tyranid/DotNetToJScript
+ * GadgetToJScript - https://github.com/med0x2e/GadgetToJScript | https://github.com/rasta-mouse/GadgetToJScript
  
 ### EDR Evasion
  * SharpBlock - https://github.com/CCob/SharpBlock 
