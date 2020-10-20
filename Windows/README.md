@@ -22,5 +22,9 @@ Tokens are static; therefore, we cannot add/delete but we can enable/disable the
 | 8 | modifyTokenPriv.py | AdjustTokenPrivileges | User32.dll, Kernel32.dll, Advapi32.dll | Modify the Token Privilege (e.g., SeDebugPrivilege) |
 | 9 | impersonator.py | CreateProcessWithTokenW | User32.dll, Kernel32.dll, Advapi32.dll | 1) Find the Handle & Token for the given Windows Name, 2) Modify the Token SeDebugPrivilege Privilege if necessary, 3) Spawn a Process (cmd.exe) as the impersonated Token | 
 
+<p align="center">
+  <img width="681" height="369" src="https://github.com/bigb0sss/RedTeam/blob/master/Windows/python/impersonator.png">
+</p>
+
 
 
