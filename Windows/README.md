@@ -19,8 +19,8 @@ Tokens are static; therefore, we cannot add/delete but we can enable/disable the
 | 5 | dnsCacheEntry.py | DnsGetCacheDataTable | Kernel32.dll, DNSAPI.dll | Undocumented API |
 | 6 | openToken.py | FindWindowA, GetWindowThreadProcessId, OpenProcess, OpenProcessToken | User32.dll, Kernel32.dll | |
 | 7 | checkToeknPriv.py | LookUpSystemName, PrivilegeCheck | User32.dll, Kernel32.dll, Advapi32.dll | Check for the Token Privilege (e.g., SEDebugPrivilege) |
-| 8 | modifyTokenPriv.py | AdjustTokenPrivileges | User32.dll, Kernel32.dll, Advapi32.dll | Modify the Token Privilege (e.g., SEDebugPrivilege) |
-| 9 | impersonator.py | CreateProcessWithTokenW | User32.dll, Kernel32.dll, Advapi32.dll | 1) Find the Handle & Token for the given Windows Name, 2) Modify the Token SEDebugPrivilege Privilege if necessary, 3) Spawn a Process (cmd.exe) as the impersonated Token | 
+| 8 | modifyTokenPriv.py | AdjustTokenPrivileges | User32.dll, Kernel32.dll, Advapi32.dll | Modify the Token Privilege (e.g., SeDebugPrivilege) |
+| 9 | impersonator.py | CreateProcessWithTokenW | User32.dll, Kernel32.dll, Advapi32.dll | 1) Find the Handle & Token for the given Windows Name, 2) Modify the Token SeDebugPrivilege Privilege if necessary, 3) Spawn a Process (cmd.exe) as the impersonated Token | 
 
 
 
