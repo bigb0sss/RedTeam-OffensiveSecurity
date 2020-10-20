@@ -9,7 +9,7 @@ Tokens are static; therefore, we cannot add/delete but we can enable/disable the
 | 1 | SeDebugPrivilege | Required to debug and adjust the memory of a process owned by another account. User Right: Debug programs. |
 
 ## Python - WinAPI
-#### Python --> EXE
+* Python --> EXE
 ```
 pip3 install pyinstaller
 pyinstaller <XXX.py>
