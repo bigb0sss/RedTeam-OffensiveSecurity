@@ -10,6 +10,7 @@
 
 ### Active Discovery
 * ZGrab - https://github.com/zmap/zgrab (Banner grabber)
+* Hardenize - https://www.hardenize.com/ (Domain Lookup)
 
 ### Target User Population Collection
 * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
