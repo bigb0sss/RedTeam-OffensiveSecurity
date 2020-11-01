@@ -59,6 +59,8 @@
     * [Part 1](https://medium.com/@bigb0ss/red-team-review-of-red-team-operations-with-cobalt-strike-2019-training-course-part-1-962c510565aa)
 
   * SharpeningCobaltStrike - https://github.com/cube0x0/SharpeningCobaltStrike
+  * Malleable C2 Randomizer - https://fortynorthsecurity.com/blog/introducing-c2concealer/
+  
 ### Redirectors
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
   
