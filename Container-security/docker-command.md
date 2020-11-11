@@ -45,94 +45,95 @@ $ docker run -it ubuntu:14.04 /bin/bash
 ```console
 $ docker run -d --name <NAME> ubuntu:14.04 <COMMAND>
 
-\\Example
+[Example]
 $ docker run --name pingcontainer -d alpine:latest ping 127.0.0.1 -c 50
 
-### Attach
+[Attach]
 $ docker attach <NAME>
 ```
 
 #### Running Web App in Container
 ```container
-$ docker run -d -P nginx:alpine    #This will choose a random Port
+$ docker run -d -P nginx:alpine    <-- This will choose a random Port
 $ docker run -d -P 8000:80 nginx:alpine
-
 $ docker ps
 ```
 
 #### Docker Commit
 ```console
 $ docker run --name <NAME> -it ubuntu:14.04 /bin/bash
-# mkdir -p /data/important
-# echo "pass" > /data/important/cred.txt
-# exit
+mkdir -p /data/important
+echo "pass" > /data/important/cred.txt
+exit
+
 $ docker ps -a
 $ docker commit <NAME> bgib0ss/test:1.0
 $ docker images
+
 $ docker run -it bgib0ss/test:1.0 /bin/bash
-# cat /data/important/cred.txt
+cat /data/important/cred.txt
 ```
 
 #### Managing Images and Containers
 ```console
-# List all containers
+[List all containers]
 $ docker ps -a
 
-# Start a container
+[Start a container]
 $ docker start <CONTAINER ID>
 
-# Stop a container
+[Stop a container]
 $ docker stop <CONTAINER ID>
 
-# Remove a container
+[Remove a container]
 $ docker rm <CONTAINER ID>
 
-# Deleting Local Images
+[Deleting Local Images]
 $ docker rmi <IMAGE ID>
 ```
 
 #### Push Images to Docker Hub
 ```console
-docker push [repo:tag]
+$ docker push [repo:tag]
 ```
 
 #### Tag Images
 ```console
-# Rename the Image
-docker tag [image ID] [repo:tag]
+[Rename the Image]
+$ docker tag [image ID] [repo:tag]
 
 OR
 
-docker tag [local repo:tag] [Docker Hub repo:tag]
+$ docker tag [local repo:tag] [Docker Hub repo:tag]
 ```
 
 #### Volumes
 ```console
-# Use of Volume
+[Use of Volume]
 • De-couple the data that is stored from the container which created the data
 • Good for sharing data between containers
   ◦ Can setup a data containers which has a volume you mount in other containers
 • Mounting folders from the host is good for testing purposes but generally not recommended for production use
 
-# New Container w/ Mounting the /volume File System
+[New Container w/ Mounting the /volume File System]
 $ docker run -d -P -v /volume nginx:alpine
 ```
 
 #### Docker Networking
 ```console
-# Map Port 80 on the Container to 8080 on the Host
+[Map Port 80 on the Container to 8080 on the Host]
 $ docker run -d -p 8080:80
 
-# Use Auto Mapping Port (49153 - 65535)
+[Use Auto Mapping Port (49153 - 65535)]
 $ docker run -d -P nginx:alpine
 ```
 
 #### Linking Containers
 ```console
-# Create the source container using the postgres
+[Create the source container using the postgres]
 $ docker run -d --name database mysql:5.7
 
-# Create the recipient container and link it
+[Create the recipient container and link it]
 $ docker run -d -P --name website --link database:db nginx:alpine
 ```
 
