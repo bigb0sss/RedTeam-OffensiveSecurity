@@ -17,7 +17,7 @@ $ docker search <REPO>
 ```
 
 #### Finding Containers
-```container
+```console
 $ docker ps          <-- Only running containers
 
 $ docker ps -a       <-- All running/stopped containers
@@ -30,7 +30,7 @@ $ docker images
 
 #### Running Docker Container
 ```console
-$ docker run ubuntu:14.04 echo "Hello World
+$ docker run ubuntu:14.04 echo "Hello World"
 ```
 
 #### Container with Terminal
@@ -109,10 +109,10 @@ docker tag [local repo:tag] [Docker Hub repo:tag]
 #### Volumes
 ```console
 # Use of Volume
-•	De-couple the data that is stored from the container which created the data
-•	Good for sharing data between containers
-	◦	Can setup a data containers which has a volume you mount in other containers
-•	Mounting folders from the host is good for testing purposes but generally not recommended for production use
+• De-couple the data that is stored from the container which created the data
+• Good for sharing data between containers
+  ◦ Can setup a data containers which has a volume you mount in other containers
+• Mounting folders from the host is good for testing purposes but generally not recommended for production use
 
 # New Container w/ Mounting the /volume File System
 $ docker run -d -P -v /volume nginx:alpine
