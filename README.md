@@ -7,6 +7,7 @@
 * Amass - https://github.com/OWASP/Amass (Attack Surface Mapping)
 * Metabigor - https://github.com/j3ssie/metabigor (Non-API OSINT)
 * AsINT_Collection - https://start.me/p/b5Aow7/asint_collection (Massive OSINT Collection)
+* Email --> Phone# - https://github.com/iansangaji/email2phonenumber
 
 ### Active Discovery
 * ZGrab - https://github.com/zmap/zgrab (Banner grabber)
