@@ -11,6 +11,14 @@ $ sudo usermod -aG docker <USER>
 ```
 >**NOTE**: You need to re-login to apply the modification
 
+#### Pulling Docker Imsage from Docker Hub
+```console
+$ docker pull <IMAGE NAME>
+
+[Example]
+$ docker pull alpine:3.10
+```
+
 #### Docker Search
 ```console
 $ docker search <REPO>
@@ -50,6 +58,13 @@ $ docker run --name pingcontainer -d alpine:latest ping 127.0.0.1 -c 50
 
 [Attach]
 $ docker attach <NAME>
+```
+
+#### Docker Running with Memory limits
+```console
+# Limiting the Memory usage of the host OS upto 4 megabites
+
+$ docker run -d --memory 4m --name testDocker alpine:latest sleep 50000
 ```
 
 #### Running Web App in Container
@@ -140,4 +155,18 @@ $ docker run -d -P --name website --link database:db nginx:alpine
 #### Docker Log
 ```console
 $ docker logs -f --tail 2 <Container NAME>
+```
+
+#### Dockerfile
+```yaml
+[Dockerfile Example]
+FROM alpine:3.10        <-- Pulling alpine:3.10 from the Docker hub
+COPY /etc/hosts /tmp    <-- Copying the file
+CMD ["/bin/sh"]         <-- Run /bin/sh
+
+# To build that Dockerfile
+$ docker build -t bigb0ss/image1:0.1 .
+
+# Running the created docker image
+$ docker run --rm -it bigb0ss/image1:0.1
 ```
