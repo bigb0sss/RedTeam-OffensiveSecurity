@@ -20,6 +20,7 @@
 * cloud_enum - https://github.com/initstring/cloud_enum
 * MicroBurst - https://github.com/NetSPI/MicroBurst (AZURE)
 * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
+* FestIn - https://github.com/cr0hn/festin (AWS)
 * Cloud_Pentest_Cheatsheet - https://github.com/dafthack/CloudPentestCheatsheets
 
 ### Microsoft (ADFS)
