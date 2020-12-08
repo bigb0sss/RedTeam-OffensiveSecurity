@@ -148,6 +148,7 @@
   * SpritesMods - http://spritesmods.com/?art=main (Product Security)
   * Joeware - http://www.joeware.net/ (Windows AD Guru - Many AD Recon bins and amazing blogs)
   * Tenable - https://github.com/tenable/poc (Exploit POCs)
+  * MalwareUnicorn - https://malwareunicorn.org/ (Malware/Reversing)
 <br />
 
 ## Security Testing Practice Lab
