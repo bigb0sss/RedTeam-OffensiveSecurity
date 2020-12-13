@@ -27,6 +27,6 @@ pyinstaller <XXX.py>
 | 8 | modifyTokenPriv.py | AdjustTokenPrivileges | User32.dll, Kernel32.dll, Advapi32.dll | Modify the Token Privilege (e.g., SeDebugPrivilege) |
 | 9 | impersonator.py | CreateProcessWithTokenW | User32.dll, Kernel32.dll, Advapi32.dll | 1) Find the Handle & Token for the given Windows Name, 2) Modify the Token SeDebugPrivilege Privilege if necessary, 3) Spawn a Process (cmd.exe) as the impersonated Token | 
 
-![Impersonator.py](https://github.com/bigb0sss/RedTeam-OffensiveSecurity/tree/master/02-Windows_Security/python/impersonator.png)
+![Image](https://github.com/bigb0sss/RedTeam-OffensiveSecurity/tree/master/02-Windows_Security/python/impersonator.png)
 
 
