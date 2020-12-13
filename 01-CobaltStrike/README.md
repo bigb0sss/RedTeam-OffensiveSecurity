@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="700" height="150" src="https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/cs_logo.png">
+  <img width="700" height="150" src="https://github.com/bigb0sss/RedTeam/blob/master/01-CobaltStrike/cs_logo.png">
 </p>
 
 ## Command References
