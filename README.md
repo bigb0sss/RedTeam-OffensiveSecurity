@@ -104,6 +104,7 @@
  * AV_Bypass - https://github.com/Techryptic/AV_Bypass
  * DotNetToJScript - https://github.com/tyranid/DotNetToJScript
  * GadgetToJScript - https://github.com/med0x2e/GadgetToJScript | https://github.com/rasta-mouse/GadgetToJScript
+ * Shellcodeloader - https://github.com/knownsec/shellcodeloader (ShellcodeLoader of windows can bypass AV)
  
 ### EDR Evasion
  * SharpBlock - https://github.com/CCob/SharpBlock 
