@@ -21,6 +21,7 @@
 * MicroBurst - https://github.com/NetSPI/MicroBurst (AZURE)
 * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
 * FestIn - https://github.com/cr0hn/festin (AWS)
+* s3viewer - https://github.com/SharonBrizinov/s3viewer (AWS)
 * Cloud_Pentest_Cheatsheet - https://github.com/dafthack/CloudPentestCheatsheets
 
 ### Microsoft (ADFS)
