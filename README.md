@@ -53,6 +53,7 @@
 
 ### Default Password Check
   * CIRT - https://cirt.net/passwords
+  * DefaultCreds-cheat-sheet - https://github.com/ihebski/DefaultCreds-cheat-sheet
 <br />
 
 ## C2 Infrastructure
