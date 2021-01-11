@@ -18,6 +18,7 @@
 
 ### Public Site Lookup (Github, Gitlab, etc.)
 * Gitrob - https://github.com/michenriksen/gitrob/ (Github Search)
+* truffleHog - https://github.com/dxa4481/truffleHog (Github Regex Search)
 
 ### Cloud Recon
 * cloud_enum - https://github.com/initstring/cloud_enum
