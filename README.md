@@ -172,6 +172,7 @@
 ### Threat Detection
   * KQL - https://github.com/DebugPrivilege/KQL
   * Sigma - https://github.com/Neo23x0/sigma (Generic Signature Format for SIEM)
+  * Splunk Security Essential Docs - https://docs.splunksecurityessentials.com/content-detail/ (Various IOCs)
 <br />
 
 ### Windows Security (What will BlueTeam look for?)
