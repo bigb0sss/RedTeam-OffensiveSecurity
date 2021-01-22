@@ -96,6 +96,7 @@
   * SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
   * Pypykatz - https://github.com/skelsec/pypykatz (Pyhton implementation of Mimikatz)
   * Internal-Monologue - https://github.com/eladshamir/Internal-Monologue
+  * MSSQL - https://research.nccgroup.com/2021/01/21/mssql-lateral-movement/
 
 ### Offensive C#
   * OffensiveCSharp - https://github.com/matterpreter/OffensiveCSharp
