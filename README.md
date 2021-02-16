@@ -28,6 +28,7 @@
 * FestIn - https://github.com/cr0hn/festin (AWS)
 * s3viewer - https://github.com/SharonBrizinov/s3viewer (AWS)
 * Cloud_Pentest_Cheatsheet - https://github.com/dafthack/CloudPentestCheatsheets
+* endgame - https://github.com/salesforce/endgame (AWS)
 
 ### Microsoft (ADFS)
 * ADFSpoof - https://github.com/fireeye/ADFSpoof (Forge ADFS security tokens)
