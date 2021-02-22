@@ -56,6 +56,7 @@
   * ProxyCannon-NG - https://github.com/proxycannon/proxycannon-ng
   * Cloud-proxy - https://github.com/tomsteele/cloud-proxy
   * Proxy-NG - https://github.com/jamesbcook/proxy-ng
+  * Mubeng - https://github.com/kitabisa/mubeng#proxy-ip-rotator
 
 ### Default Password Check
   * CIRT - https://cirt.net/passwords
