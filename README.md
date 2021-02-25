@@ -135,7 +135,7 @@
 ### Nix
 <br />
 
-##  RedTeam Researchers/Githubs
+##  RedTeam Researchers/Githubs/Gitbooks
   * Vincent Yiu - https://vincentyiu.com
   * Outflank - https://github.com/outflanknl
   * Bank Security - https://github.com/BankSecurity/Red_Team
@@ -144,6 +144,7 @@
   * RedCanary (Atomic RedTeam) - https://github.com/redcanaryco/atomic-red-team
   * kmkz - https://github.com/kmkz/Pentesting (Good cheat-sheets)
   * Rastamouse - https://offensivedefence.co.uk/authors/rastamouse/
+  * (Gitbook) dmcxblue - https://dmcxblue.gitbook.io/red-team-notes-2-0/
 <br />
   
 
