@@ -50,6 +50,7 @@
   * goPassGen - https://github.com/bigb0sss/goPassGen (*PasswordSpray List Generator)
   * go365 - https://github.com/optiv/Go365 (Microsoft SOAP API endpoint on login.microsoftonline.com) 
   * Okta - https://github.com/Rhynorater/Okta-Password-Sprayer
+  * o365Spray - https://github.com/0xZDH/o365spray
 
 ### IP Rotators
   * Burp IPRotate - https://github.com/PortSwigger/ip-rotate (Utilizes AWS IP Gateway)
