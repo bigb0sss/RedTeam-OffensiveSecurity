@@ -43,6 +43,11 @@
 
 <br /> 
 
+## Phishing
+### Phishing Techniques - https://blog.sublimesecurity.com/
+
+<br />
+
 ## Password-Spray
 ### Tools  
   * MSOLSpray - https://github.com/dafthack/MSOLSpray
