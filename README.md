@@ -137,6 +137,7 @@
   * Windows Syscall - https://j00ru.vexillium.org/syscalls/nt/64/
   * Windows Undocumented Func - http://undocumented.ntinternals.net/
   * Windows Kernel Exploit Training - https://codemachine.com/
+  * Anti-Debug - https://anti-debug.checkpoint.com/
 
 ### Nix
 <br />
