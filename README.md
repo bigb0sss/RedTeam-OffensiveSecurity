@@ -40,6 +40,7 @@
 * PHP Deserialization - https://github.com/ambionics/phpggc
 * Kubernetes - https://github.com/loodse/kubectl-hacking
 * SSRF - https://github.com/jdonsec/AllThingsSSRF
+* Skf-labs - https://owasp-skf.gitbook.io/asvs-write-ups/ (Great Write-ups)
 
 <br /> 
 
