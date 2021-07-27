@@ -125,9 +125,14 @@
  
 ### EDR Evasion
  * SharpBlock - https://github.com/CCob/SharpBlock 
+ * scareCrow - https://github.com/optiv/ScareCrow (EDR Bypass Payload Creation Framework)
+ * Cobalt Strike Tradecraft
+    * https://hausec.com/2021/07/26/cobalt-strike-and-tradecraft/amp/?__twitter_impression=true
+    * https://www.cobaltstrike.com/help-opsec
  
 ### PowerShell
   * p3nt4 - https://github.com/p3nt4
+
 <br />
 
 
