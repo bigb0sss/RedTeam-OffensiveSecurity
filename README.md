@@ -4,49 +4,52 @@
 
 ## OSINT
 ### Passive Discovery
-* Amass - https://github.com/OWASP/Amass (Attack Surface Mapping)
-* Metabigor - https://github.com/j3ssie/metabigor (Non-API OSINT)
-* AsINT_Collection - https://start.me/p/b5Aow7/asint_collection (Massive OSINT Collection)
-* Email --> Phone# - https://github.com/iansangaji/email2phonenumber
-* MFASweep - https://github.com/dafthack/MFASweep (MFA Check for Microsoft endpoints)
+  * Amass - https://github.com/OWASP/Amass (Attack Surface Mapping)
+  * Metabigor - https://github.com/j3ssie/metabigor (Non-API OSINT)
+  * AsINT_Collection - https://start.me/p/b5Aow7/asint_collection (Massive OSINT Collection)
+  * Email --> Phone# - https://github.com/iansangaji/email2phonenumber
+  * MFASweep - https://github.com/dafthack/MFASweep (MFA Check for Microsoft endpoints)
 
 ### Active Discovery
-* ZGrab - https://github.com/zmap/zgrab (Banner grabber)
-* Hardenize - https://www.hardenize.com/ (Domain Lookup)
+  * ZGrab - https://github.com/zmap/zgrab (Banner grabber)
+  * Hardenize - https://www.hardenize.com/ (Domain Lookup)
 
 ### Target User Population Collection
-* Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
+  * Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
+  * US Staff UserEnum - https://github.com/bigb0sss/USStaffMama
+  * NameSpi - https://github.com/waffl3ss/NameSpi 
 
 ### Public Site Lookup (Github, Gitlab, etc.)
-* Gitrob - https://github.com/michenriksen/gitrob/ (Github Search)
-* truffleHog - https://github.com/dxa4481/truffleHog (Github Regex Search)
+  * Gitrob - https://github.com/michenriksen/gitrob/ (Github Search)
+  * truffleHog - https://github.com/dxa4481/truffleHog (Github Regex Search)
 
 ### Cloud Recon
-* cloud_enum - https://github.com/initstring/cloud_enum
-* MicroBurst - https://github.com/NetSPI/MicroBurst (AZURE)
-* pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
-* FestIn - https://github.com/cr0hn/festin (AWS)
-* s3viewer - https://github.com/SharonBrizinov/s3viewer (AWS)
-* Cloud_Pentest_Cheatsheet - https://github.com/dafthack/CloudPentestCheatsheets
-* endgame - https://github.com/salesforce/endgame (AWS)
+  * cloud_enum - https://github.com/initstring/cloud_enum
+  * MicroBurst - https://github.com/NetSPI/MicroBurst (AZURE)
+  * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
+  * FestIn - https://github.com/cr0hn/festin (AWS)
+  * s3viewer - https://github.com/SharonBrizinov/s3viewer (AWS)
+  * Cloud_Pentest_Cheatsheet - https://github.com/dafthack/CloudPentestCheatsheets
+  * endgame - https://github.com/salesforce/endgame (AWS)
 
 ### Microsoft (ADFS)
-* ADFSpoof - https://github.com/fireeye/ADFSpoof (Forge ADFS security tokens)
+  * ADFSpoof - https://github.com/fireeye/ADFSpoof (Forge ADFS security tokens)
 
 ### Web App
-* Wordpress-Exploit-Framework - https://github.com/rastating/wordpress-exploit-framework
-* Awesome-Web-Security - https://github.com/qazbnm456/awesome-web-security
-* Java Deserialization - https://github.com/frohoff/ysoserial
-* PHP Deserialization - https://github.com/ambionics/phpggc
-* Kubernetes - https://github.com/loodse/kubectl-hacking
-* SSRF - https://github.com/jdonsec/AllThingsSSRF
-* Skf-labs - https://owasp-skf.gitbook.io/asvs-write-ups/ (Great Write-ups)
-
+  * Wordpress-Exploit-Framework - https://github.com/rastating/wordpress-exploit-framework
+  * Awesome-Web-Security - https://github.com/qazbnm456/awesome-web-security
+  * Java Deserialization - https://github.com/frohoff/ysoserial
+  * PHP Deserialization - https://github.com/ambionics/phpggc
+  * Kubernetes - https://github.com/loodse/kubectl-hacking
+  * SSRF - https://github.com/jdonsec/AllThingsSSRF
+  * Skf-labs - https://owasp-skf.gitbook.io/asvs-write-ups/ (Great Write-ups)
 <br /> 
 
 ## Phishing
 ### Phishing Techniques - https://blog.sublimesecurity.com/
-
+#### Microsfot 365 Device Code Phishing
+  * devicePhish - https://github.com/bigb0sss/Microsoft365_devicePhish
+  * TokenTactics - https://github.com/rvrsh3ll/TokenTactics
 <br />
 
 ## Password-Spray
@@ -72,13 +75,16 @@
 
 ## C2 Infrastructure
 ### Cobal Strike
-  * Malleable C2 (Guideline) - [CS4.0_guideline.profile](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
   * Beacon Command Cheatsheet - [CS Commands](https://github.com/bigb0sss/RedTeam/tree/master/CobaltStrike)
   * Cobalt Strike Training Review 
     * [Part 1](https://medium.com/@bigb0ss/red-team-review-of-red-team-operations-with-cobalt-strike-2019-training-course-part-1-962c510565aa)
 
   * SharpeningCobaltStrike - https://github.com/cube0x0/SharpeningCobaltStrike
+  
+#### Malleable C2
+  * Malleable C2 (Guideline) - [CS4.0_guideline.profile](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
   * Malleable C2 Randomizer - https://fortynorthsecurity.com/blog/introducing-c2concealer/
+  * SourcePoint - https://github.com/Tylous/SourcePoint
   
 ### Redirectors
   * Domain Fronting - https://www.bamsoftware.com/papers/fronting/
@@ -92,8 +98,8 @@
 
 ## Post-Exploitation
 ### AD Recon/Survey
- * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
- * DNS Enum - https://github.com/dirkjanm/adidnsdump
+  * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
+  * DNS Enum - https://github.com/dirkjanm/adidnsdump
 
 ### User Phishing
   * pickl3 - https://github.com/hlldz/pickl3
@@ -116,23 +122,22 @@
   * LOLBAS - https://lolbas-project.github.io/#
 
 ### AV/AMSI Evasion
- * xencrypt - https://github.com/the-xentropy/xencrypt (*PowerShell)
- * FalconStrike - https://github.com/slaeryan/FALCONSTRIKE
- * AV_Bypass - https://github.com/Techryptic/AV_Bypass
- * DotNetToJScript - https://github.com/tyranid/DotNetToJScript
- * GadgetToJScript - https://github.com/med0x2e/GadgetToJScript | https://github.com/rasta-mouse/GadgetToJScript
- * Shellcodeloader - https://github.com/knownsec/shellcodeloader (ShellcodeLoader of windows can bypass AV)
+  * xencrypt - https://github.com/the-xentropy/xencrypt (*PowerShell)
+  * FalconStrike - https://github.com/slaeryan/FALCONSTRIKE
+  * AV_Bypass - https://github.com/Techryptic/AV_Bypass
+  * DotNetToJScript - https://github.com/tyranid/DotNetToJScript
+  * GadgetToJScript - https://github.com/med0x2e/GadgetToJScript | https://github.com/rasta-mouse/GadgetToJScript
+  * Shellcodeloader - https://github.com/knownsec/shellcodeloader (ShellcodeLoader of windows can bypass AV)
  
 ### EDR Evasion
- * SharpBlock - https://github.com/CCob/SharpBlock 
- * scareCrow - https://github.com/optiv/ScareCrow (EDR Bypass Payload Creation Framework)
- * Cobalt Strike Tradecraft
+  * SharpBlock - https://github.com/CCob/SharpBlock 
+  * ScareCrow - https://github.com/optiv/ScareCrow (EDR Bypass Payload Creation Framework)
+  * Cobalt Strike Tradecraft
     * https://hausec.com/2021/07/26/cobalt-strike-and-tradecraft/amp/?__twitter_impression=true
     * https://www.cobaltstrike.com/help-opsec
  
 ### PowerShell
   * p3nt4 - https://github.com/p3nt4
-
 <br />
 
 
