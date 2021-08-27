@@ -52,7 +52,7 @@
   * TokenTactics - https://github.com/rvrsh3ll/TokenTactics
 <br />
 
-## Password-Spray
+## Password Spray
 ### Tools  
   * MSOLSpray - https://github.com/dafthack/MSOLSpray
   * o365enum.py - https://github.com/gremwell/o365enum (Microsoft ActiveSync)
@@ -97,11 +97,14 @@
 
 
 ## Post-Exploitation
-### AD Recon/Survey
+### Windows Active Directory Recon/Survey
   * Seatbelt - https://github.com/GhostPack/Seatbelt (*Ghostpack)
   * DNS Enum - https://github.com/dirkjanm/adidnsdump
 
-### User Phishing
+### Windows Active Directory Attacks
+  * Attacking & Securing Active Directory - https://rmusser.net/docs/Active_Directory.html (Awesome references)
+
+### Internal Phishing
   * pickl3 - https://github.com/hlldz/pickl3
   * CredPhisher - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
 
