@@ -116,6 +116,7 @@
   * Pypykatz - https://github.com/skelsec/pypykatz (Pyhton implementation of Mimikatz)
   * Internal-Monologue - https://github.com/eladshamir/Internal-Monologue
   * MSSQL - https://research.nccgroup.com/2021/01/21/mssql-lateral-movement/
+  * LiquidSnake - https://github.com/RiccardoAncarani/LiquidSnake (Fileless LM using WMI Event Subscriptions and GadgetToJScript)
 
 ### Offensive C#
   * OffensiveCSharp - https://github.com/matterpreter/OffensiveCSharp
