@@ -52,6 +52,7 @@
   * TokenTactics - https://github.com/rvrsh3ll/TokenTactics
 <br />
 
+
 ## Password Spray
 ### Tools  
   * MSOLSpray - https://github.com/dafthack/MSOLSpray
@@ -72,6 +73,7 @@
   * CIRT - https://cirt.net/passwords
   * DefaultCreds-cheat-sheet - https://github.com/ihebski/DefaultCreds-cheat-sheet
 <br />
+
 
 ## C2 Infrastructure
 ### Cobal Strike
@@ -108,8 +110,9 @@
   * pickl3 - https://github.com/hlldz/pickl3
   * CredPhisher - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
 
-### Browser Scripping
-  * SharpChromium - https://github.com/djhohnstein/SharpChromium
+### Credential Theft
+  * SharpChromium - https://github.com/djhohnstein/SharpChromium (Browser)
+  * Mimikatz Command References - https://adsecurity.org/?page_id=1821
 
 ### Lateral Movement
   * SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
@@ -157,6 +160,7 @@
 ### Nix
 <br />
 
+
 ##  RedTeam Researchers/Githubs/Gitbooks
   * Vincent Yiu - https://vincentyiu.com
   * Outflank - https://github.com/outflanknl
@@ -178,6 +182,7 @@
   * Adversary Tactics: PowerShell - https://github.com/specterops/at-ps (Specterops)
 <br />
   
+
 ## Sexy Resources
   * MITRE ATT&CK - https://attack.mitre.org/
   * MalwareNews - https://malware.news/
@@ -189,15 +194,18 @@
   * MalwareUnicorn - https://malwareunicorn.org/ (Malware/Reversing)
 <br />
 
+
 ## Security Testing Practice Lab
   * Hackthebox - https://www.hackthebox.eu/
   * Cyberseclab - https://www.cyberseclabs.co.uk/ (AD Focus)
 <br />
 
+
 ## BlueTeam
 ### Lab Resources
   * Detection Lab - https://github.com/clong/DetectionLab
 <br />
+
 
 ### Threat Detection
   * KQL - https://github.com/DebugPrivilege/KQL
@@ -205,6 +213,7 @@
   * Splunk Security Essential Docs - https://docs.splunksecurityessentials.com/content-detail/ (Various IOCs)
   * Cobalt Strike Defense - https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence
 <br />
+
 
 ### Windows Security (What will BlueTeam look for?)
 #### LDAP (Lightweight Directory Access Protocol)
