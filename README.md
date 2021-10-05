@@ -178,7 +178,7 @@
   * Windows Server VMs - https://www.microsoft.com/en-us/evalcenter
   * Windows 10 - https://www.microsoft.com/en-us/software-download/windows10ISO
   * Archive of WinVMs - https://archive.org/search.php?query=subject%3A%22IEVM%22
-  * Public MSDN - [Link](https://the-eye.eu/public/MSDN/?__cf_chl_jschl_tk__=46c681e6ae5287aaf2dbd8ef86f7f8cef8814957-1598278564-0-AbrrKkEDy4QEcQU5Md-yugSbmcD6dvwxzHhVHeFss8es0BlwT2XlPw8dsv5VdDzFdnhgWSr06ih_Rx8aoVFZ-FLSoQcJXZ_L1TrQZPC2rDdiH9WWau3AKVYnLjAn2gsLlLkug4iBVgACHMIachUurJCX2tPnjtZlKW3pgJmhkhZ3QyT3pGm-DDs1UYLbK1IiuZ6Ps8_kAPaGFMpYX8KAnHsYayhcic8Uhrpa7dcG4b_8PAc161ctecW3ZdqruEwsU06rPy2BvvX_3IyoyiGJnZILNEPIxFCXUAfQ3a6MbZ0e0Zwa920X9KmEapBFKr_cALjXG6H9jStvRhtm-3yUdCupFB6fAZYIIIPSap2sckdO)
+  * Public MSDN - [Link](https://the-eye.eu/public/MSDN/)
   * Adversary Tactics: PowerShell - https://github.com/specterops/at-ps (Specterops)
 <br />
   
