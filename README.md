@@ -24,6 +24,7 @@
   * truffleHog - https://github.com/dxa4481/truffleHog (Github Regex Search)
 
 ### Cloud Recon
+  * Cloud_Security_Wiki - https://cloudsecwiki.com/azure_cloud.html (Awesome cloud resources)
   * cloud_enum - https://github.com/initstring/cloud_enum
   * MicroBurst - https://github.com/NetSPI/MicroBurst (AZURE)
   * pacu - https://github.com/RhinoSecurityLabs/pacu (AWS)
