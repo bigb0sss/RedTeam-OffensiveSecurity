@@ -1,17 +1,21 @@
-
 ## Docker Command Cheatsheet
+
 #### Version
+
 ```console
 $ sudo docker --version
 ```
 
 #### Add User to Docker Group
+
 ```console
 $ sudo usermod -aG docker <USER>
 ```
->**NOTE**: You need to re-login to apply the modification
+
+> **NOTE**: You need to re-login to apply the modification
 
 #### Pulling Docker Imsage from Docker Hub
+
 ```console
 $ docker pull <IMAGE NAME>
 
@@ -20,11 +24,13 @@ $ docker pull alpine:3.10
 ```
 
 #### Docker Search
+
 ```console
 $ docker search <REPO>
 ```
 
 #### Finding Containers
+
 ```console
 $ docker ps          <-- Only running containers
 
@@ -32,16 +38,19 @@ $ docker ps -a       <-- All running/stopped containers
 ```
 
 #### Docker Images
+
 ```console
 $ docker images
 ```
 
 #### Running Docker Container
+
 ```console
 $ docker run ubuntu:14.04 echo "Hello World"
 ```
 
 #### Container with Terminal
+
 ```console
 $ docker run -it ubuntu:14.04 /bin/bash
 
@@ -50,6 +59,7 @@ $ docker run -it ubuntu:14.04 /bin/bash
 ```
 
 #### Docker Detached Mode
+
 ```console
 $ docker run -d --name <NAME> ubuntu:14.04 <COMMAND>
 
@@ -61,6 +71,7 @@ $ docker attach <NAME>
 ```
 
 #### Docker Running with Memory limits
+
 ```console
 # Limiting the Memory usage of the host OS upto 4 megabites
 
@@ -68,6 +79,7 @@ $ docker run -d --memory 4m --name testDocker alpine:latest sleep 50000
 ```
 
 #### Running Web App in Container
+
 ```container
 $ docker run -d -P nginx:alpine    <-- This will choose a random Port
 $ docker run -d -P 8000:80 nginx:alpine
@@ -75,6 +87,7 @@ $ docker ps
 ```
 
 #### Docker Commit
+
 ```console
 $ docker run --name <NAME> -it ubuntu:14.04 /bin/bash
 mkdir -p /data/important
@@ -90,6 +103,7 @@ cat /data/important/cred.txt
 ```
 
 #### Managing Images and Containers
+
 ```console
 [List all containers]
 $ docker ps -a
@@ -108,11 +122,13 @@ $ docker rmi <IMAGE ID>
 ```
 
 #### Push Images to Docker Hub
+
 ```console
 $ docker push [repo:tag]
 ```
 
 #### Tag Images
+
 ```console
 [Rename the Image]
 $ docker tag [image ID] [repo:tag]
@@ -123,6 +139,7 @@ $ docker tag [local repo:tag] [Docker Hub repo:tag]
 ```
 
 #### Volumes
+
 ```console
 [Use of Volume]
 • De-couple the data that is stored from the container which created the data
@@ -135,6 +152,7 @@ $ docker run -d -P -v /volume nginx:alpine
 ```
 
 #### Docker Networking
+
 ```console
 [Map Port 80 on the Container to 8080 on the Host]
 $ docker run -d -p 8080:80
@@ -144,6 +162,7 @@ $ docker run -d -P nginx:alpine
 ```
 
 #### Linking Containers
+
 ```console
 [Create the source container using the postgres]
 $ docker run -d --name database mysql:5.7
@@ -153,11 +172,13 @@ $ docker run -d -P --name website --link database:db nginx:alpine
 ```
 
 #### Docker Log
+
 ```console
 $ docker logs -f --tail 2 <Container NAME>
 ```
 
 #### Dockerfile
+
 ```yaml
 [Dockerfile Example]
 FROM alpine:3.10        <-- Pulling alpine:3.10 from the Docker hub
