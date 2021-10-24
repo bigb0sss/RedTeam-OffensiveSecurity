@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" height="500" src="./.github/images/redteam_logo.png">
+  <img width="500" height="500" src="./images/redteam_logo.png">
 </p>
 
 ## OSINT
@@ -70,7 +70,7 @@
 
 - MSOLSpray - https://github.com/dafthack/MSOLSpray
 - o365enum.py - https://github.com/gremwell/o365enum (Microsoft ActiveSync)
-- goPassGen - https://github.com/bigb0sss/goPassGen (\*PasswordSpray List Generator)
+- goPassGen - https://github.com/bigb0sss/goPassGen (PasswordSpray List Generator)
 - go365 - https://github.com/optiv/Go365 (Microsoft SOAP API endpoint on login.microsoftonline.com)
 - Okta - https://github.com/Rhynorater/Okta-Password-Sprayer
 - o365Spray - https://github.com/0xZDH/o365spray
@@ -119,7 +119,7 @@
 
 ### Windows Active Directory Recon/Survey
 
-- Seatbelt - https://github.com/GhostPack/Seatbelt (\*Ghostpack)
+- Seatbelt - https://github.com/GhostPack/Seatbelt (Ghostpack)
 - DNS Enum - https://github.com/dirkjanm/adidnsdump
 
 ### Windows Active Directory Attacks
@@ -139,7 +139,7 @@
 ### Lateral Movement
 
 - SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
-- Pypykatz - https://github.com/skelsec/pypykatz (Pyhton implementation of Mimikatz)
+- Pypykatz - https://github.com/skelsec/pypykatz (Python implementation of Mimikatz)
 - Internal-Monologue - https://github.com/eladshamir/Internal-Monologue
 - MSSQL - https://research.nccgroup.com/2021/01/21/mssql-lateral-movement/
 - LiquidSnake - https://github.com/RiccardoAncarani/LiquidSnake (Fileless LM using WMI Event Subscriptions and GadgetToJScript)
@@ -151,11 +151,11 @@
 
 ### LiveOffTheLand
 
-- LOLBAS - https://lolbas-project.github.io/#
+- LOLBAS - https://lolbas-project.github.io/
 
 ### AV/AMSI Evasion
 
-- xencrypt - https://github.com/the-xentropy/xencrypt (\*PowerShell)
+- xencrypt - https://github.com/the-xentropy/xencrypt (PowerShell)
 - FalconStrike - https://github.com/slaeryan/FALCONSTRIKE
 - AV_Bypass - https://github.com/Techryptic/AV_Bypass
 - DotNetToJScript - https://github.com/tyranid/DotNetToJScript
