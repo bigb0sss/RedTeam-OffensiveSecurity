@@ -98,6 +98,9 @@
   - [Part 1](https://medium.com/@bigb0ss/red-team-review-of-red-team-operations-with-cobalt-strike-2019-training-course-part-1-962c510565aa)
 
 - SharpeningCobaltStrike - https://github.com/cube0x0/SharpeningCobaltStrike
+- Alternative ExecuteAssembly - https://github.com/med0x2e/ExecuteAssembly
+- Inline ExecuteAssembly - https://github.com/anthemtotheego/InlineExecute-Assembly (Executing .NET Assembly in the same process unline CS's Execute-Assembly)
+- BOF (Beacon Object Files) - https://github.com/trustedsec/CS-Situational-Awareness-BOF
 
 #### Malleable C2
 
