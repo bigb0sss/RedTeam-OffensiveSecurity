@@ -135,10 +135,20 @@
 - pickl3 - https://github.com/hlldz/pickl3
 - CredPhisher - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
 
-### Credential Theft
+### Credential Theft (Windows)
 
-- SharpChromium - https://github.com/djhohnstein/SharpChromium (Browser)
 - Mimikatz Command References - https://adsecurity.org/?page_id=1821
+
+#### LSASS
+- SharpDump - https://github.com/GhostPack/SharpDump (Highly IOC'd)
+- SharpMiniDump - https://github.com/b4rtik/SharpMiniDump
+- Dumper2020 - https://github.com/gitjdm/dumper2020 
+- Nanodump - https://github.com/helpsystems/nanodump
+
+
+#### Without Touching LSASS
+- SharpChromium - https://github.com/djhohnstein/SharpChromium (Browser Saved Credentials)
+
 
 ### Lateral Movement
 
