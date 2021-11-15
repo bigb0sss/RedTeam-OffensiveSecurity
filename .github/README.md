@@ -141,7 +141,7 @@
 
 #### LSASS
 - SharpDump - https://github.com/GhostPack/SharpDump (Highly IOC'd)
-- SharpMiniDump - https://github.com/b4rtik/SharpMiniDump
+- SharpMiniDump - https://github.com/b4rtik/SharpMiniDump (Uses dynamic API calls, direct syscall and Native API unhooking to evade the AV / EDR detection - Win10 - WinServer2016)
 - Dumper2020 - https://github.com/gitjdm/dumper2020 
 - Nanodump - https://github.com/helpsystems/nanodump
 
