@@ -11,6 +11,7 @@
 - AsINT_Collection - https://start.me/p/b5Aow7/asint_collection (Massive OSINT Collection)
 - Email --> Phone# - https://github.com/iansangaji/email2phonenumber
 - MFASweep - https://github.com/dafthack/MFASweep (MFA Check for Microsoft endpoints)
+- Fast-Google-Dorks-Scan - https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan?mc_cid=70cff8af7c&mc_eid=eff0f218d6 (Google Dork)
 
 ### Active Discovery
 
