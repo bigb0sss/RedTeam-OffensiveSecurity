@@ -261,5 +261,4 @@
 - [Hunting for reconnaissance activities using LDAP search filter (Microsoft)](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/hunting-for-reconnaissance-activities-using-ldap-search-filters/ba-p/824726)
 
 ## Disclaimer
-
 All the credits belong to the original authors and publishers.
