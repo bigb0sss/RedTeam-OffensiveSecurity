@@ -188,10 +188,6 @@
 
 - p3nt4 - https://github.com/p3nt4
 
-### Okta Single Sign-On (SSO)
-
-- Dorothy - https://github.com/elastic/dorothy
-
 ## Exploit Dev
 
 ### Windows
@@ -253,6 +249,7 @@
 - Sigma - https://github.com/Neo23x0/sigma (Generic Signature Format for SIEM)
 - Splunk Security Essential Docs - https://docs.splunksecurityessentials.com/content-detail/ (Various IOCs)
 - Cobalt Strike Defense - https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence
+- Dorothy - https://github.com/elastic/dorothy (Okta SSO Monitoring and Detection)
 
 ### Windows Security (What will BlueTeam look for?)
 
@@ -262,3 +259,8 @@
 
 ## Disclaimer
 All the credits belong to the original authors and publishers.
+
+## Contributors
+- @bigb0ss
+- @T145
+- @threat-punter
