@@ -188,6 +188,10 @@
 
 - p3nt4 - https://github.com/p3nt4
 
+### Okta Single Sign-On (SSO)
+
+- Dorothy - https://github.com/elastic/dorothy
+
 ## Exploit Dev
 
 ### Windows
