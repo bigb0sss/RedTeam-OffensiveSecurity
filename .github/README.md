@@ -12,10 +12,6 @@
 - MFASweep - https://github.com/dafthack/MFASweep (MFA Check for Microsoft endpoints)
 - Fast-Google-Dorks-Scan - https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan?mc_cid=70cff8af7c&mc_eid=eff0f218d6 (Google Dork)
 
-### Active Discovery
-- ZGrab - https://github.com/zmap/zgrab (Banner grabber)
-- Hardenize - https://www.hardenize.com/ (Domain Lookup)
-
 ### Target User Population Collection
 - Linkedin UserEnum - https://github.com/bigb0sss/LinkedinMama
 - US Staff UserEnum - https://github.com/bigb0sss/USStaffMama
@@ -35,7 +31,12 @@
 - Cloud_Pentest_Cheatsheet - https://github.com/dafthack/CloudPentestCheatsheets
 - endgame - https://github.com/salesforce/endgame (AWS)
 
-### Microsoft (ADFS)
+### Microsoft / Windows
+#### Active Discovery
+- ZGrab - https://github.com/zmap/zgrab (Banner grabber)
+- Hardenize - https://www.hardenize.com/ (Domain Lookup) 
+
+#### ADFS
 - ADFSpoof - https://github.com/fireeye/ADFSpoof (Forge ADFS security tokens)
 
 ### Web App
@@ -78,7 +79,7 @@
 - DefaultCreds-cheat-sheet - https://github.com/ihebski/DefaultCreds-cheat-sheet
 
 
-## C2 Infrastructure
+## Infrastructure
 ### Cobal Strike
 - Beacon Command Cheatsheet - [CS Commands](https://github.com/bigb0sss/RedTeam/tree/master/CobaltStrike)
 - Cobalt Strike Training Review
@@ -100,6 +101,9 @@
 - Cloud-proxy - https://github.com/tomsteele/cloud-proxy
 - Proxy-ng - https://github.com/jamesbcook/proxy-ng
 - ProxyCannon - https://github.com/proxycannon/proxycannon-ng
+
+### Living Off Trusted Sites
+- LOTS - https://lots-project.com/ (Trusted sites for C2/Phishing/Downloading)
 
 
 ## Post-Exploitation
