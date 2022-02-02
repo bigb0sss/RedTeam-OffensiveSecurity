@@ -118,8 +118,13 @@
 - pickl3 - https://github.com/hlldz/pickl3
 - CredPhisher - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
 
-### Credential Theft (Windows)
+### Credential Theft 
+#### Windows
 - Mimikatz Command References - https://adsecurity.org/?page_id=1821
+
+#### Internet Browsers
+- SharpChromium - https://github.com/djhohnstein/SharpChromium (Chrome)
+- EvilSeleium - https://github.com/mrd0x/EvilSelenium (Chrome)
 
 #### LSASS
 - SharpDump - https://github.com/GhostPack/SharpDump (Highly IOC'd)
@@ -127,8 +132,7 @@
 - Dumper2020 - https://github.com/gitjdm/dumper2020 
 - Nanodump - https://github.com/helpsystems/nanodump
 
-#### Without Touching LSASS
-- SharpChromium - https://github.com/djhohnstein/SharpChromium (Browser Saved Credentials)
+
 
 ### Lateral Movement
 - SpectorOps - https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f
@@ -149,7 +153,8 @@
 - FalconStrike - https://github.com/slaeryan/FALCONSTRIKE
 - AV_Bypass - https://github.com/Techryptic/AV_Bypass
 - DotNetToJScript - https://github.com/tyranid/DotNetToJScript
-- GadgetToJScript - https://github.com/med0x2e/GadgetToJScript | https://github.com/rasta-mouse/GadgetToJScript
+- GadgetToJScript - https://github.com/med0x2e/GadgetToJScript 
+- GadgetToJScript - https://github.com/rasta-mouse/GadgetToJScript
 - Shellcodeloader - https://github.com/knownsec/shellcodeloader (ShellcodeLoader of windows can bypass AV)
 
 ### EDR Evasion
