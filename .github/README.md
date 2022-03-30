@@ -94,6 +94,9 @@
 - Malleable C2 Randomizer - https://fortynorthsecurity.com/blog/introducing-c2concealer/
 - SourcePoint - https://github.com/Tylous/SourcePoint
 
+### C2 (Opensource)
+- OffensiveNotion - https://github.com/mttaggart/OffensiveNotion
+
 ### Redirectors
 - Domain Fronting - https://www.bamsoftware.com/papers/fronting/
 
