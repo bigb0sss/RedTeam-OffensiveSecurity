@@ -206,6 +206,10 @@
 - Public MSDN - [Link](https://the-eye.eu/public/MSDN/)
 - Adversary Tactics: PowerShell - https://github.com/specterops/at-ps (Specterops)
 
+### Cloud
+- AWS Threat Simulation and Detection - https://github.com/sbasu7241/AWS-Threat-Simulation-and-Detection
+- Stratus Red Team - https://github.com/DataDog/stratus-red-team
+
 
 ## Sexy Resources
 - MITRE ATT&CK - https://attack.mitre.org/
