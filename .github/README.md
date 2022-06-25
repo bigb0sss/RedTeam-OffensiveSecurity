@@ -115,7 +115,7 @@
 - DNS Enum - https://github.com/dirkjanm/adidnsdump
 
 ### Windows Active Directory Attacks
-- Attacking & Securing Active Directory - https://rmusser.net/docs/Active_Directory.html (Awesome references)
+- Attacking & Securing Active Directory - https://rmusser.net/docs/index.html#/./Active_Directory?id=active-directory (Awesome references)
 
 ### Internal Phishing
 - pickl3 - https://github.com/hlldz/pickl3
