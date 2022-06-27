@@ -198,6 +198,8 @@
 - Rastamouse - https://offensivedefence.co.uk/authors/rastamouse/
 - (Gitbook) dmcxblue - https://dmcxblue.gitbook.io/red-team-notes-2-0/
 
+## Awesome Collections
+- [Awesome-RCE-Techniques](https://github.com/p0dalirius/Awesome-RCE-techniques)
 
 ## Lab Resources
 - Windows Server VMs - https://www.microsoft.com/en-us/evalcenter
