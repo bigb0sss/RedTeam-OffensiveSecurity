@@ -186,8 +186,17 @@
 ### Nix
 
 
+## VulnDB
+### Vulns - Cloud
+- [The Open Cloud Vulnerability & Security Issue Database](https://www.cloudvulndb.org/)
 
-## RedTeam Researchers/Githubs/Gitbooks
+### Vulns - WebApp
+
+
+### Vulns - Windows / Active Directory 
+
+
+## RedTeam Researchers (Githubs / Gitbooks)
 - Vincent Yiu - https://vincentyiu.com
 - Outflank - https://github.com/outflanknl
 - Bank Security - https://github.com/BankSecurity/Red_Team
@@ -202,16 +211,20 @@
 - [Awesome-RCE-Techniques](https://github.com/p0dalirius/Awesome-RCE-techniques)
 
 ## Lab Resources
+### Labs - Windows
 - Windows Server VMs - https://www.microsoft.com/en-us/evalcenter
 - Windows 10 - https://www.microsoft.com/en-us/software-download/windows10ISO
 - Archive of WinVMs - https://archive.org/search.php?query=subject%3A%22IEVM%22
 - Public MSDN - [Link](https://the-eye.eu/public/MSDN/)
 - Adversary Tactics: PowerShell - https://github.com/specterops/at-ps (Specterops)
 
-### Cloud
+### Labs - Cloud
 - AWS Threat Simulation and Detection - https://github.com/sbasu7241/AWS-Threat-Simulation-and-Detection
 - Stratus Red Team - https://github.com/DataDog/stratus-red-team
 
+### Labs - CTF / Security Testing Practice
+- Hackthebox - https://www.hackthebox.eu/
+- Cyberseclab - https://www.cyberseclabs.co.uk/ (AD Focus)
 
 ## Sexy Resources
 - MITRE ATT&CK - https://attack.mitre.org/
@@ -223,10 +236,6 @@
 - Tenable - https://github.com/tenable/poc (Exploit POCs)
 - MalwareUnicorn - https://malwareunicorn.org/ (Malware/Reversing)
 
-
-## Security Testing Practice Lab
-- Hackthebox - https://www.hackthebox.eu/
-- Cyberseclab - https://www.cyberseclabs.co.uk/ (AD Focus)
 
 
 ## BlueTeam
