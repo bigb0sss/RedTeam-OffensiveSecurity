@@ -159,6 +159,7 @@
 - GadgetToJScript - https://github.com/med0x2e/GadgetToJScript 
 - GadgetToJScript - https://github.com/rasta-mouse/GadgetToJScript
 - Shellcodeloader - https://github.com/knownsec/shellcodeloader (ShellcodeLoader of windows can bypass AV)
+- DareDevil - https://github.com/reveng007/DareDevil (C#, reflective loading followed by shellcode loading, bypassing AV, AMSI and ETW)
 
 ### EDR Evasion
 - SharpBlock - https://github.com/CCob/SharpBlock
