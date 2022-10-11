@@ -96,6 +96,9 @@
 
 ### C2 (Opensource)
 - OffensiveNotion - https://github.com/mttaggart/OffensiveNotion
+- Havoc - https://github.com/HavocFramework/Havoc
+- Merlin - https://github.com/Ne0nd0g/merlin
+- Sliver -https://github.com/BishopFox/sliver
 
 ### Redirectors
 - Domain Fronting - https://www.bamsoftware.com/papers/fronting/
