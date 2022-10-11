@@ -57,6 +57,10 @@
 - TokenTactics - https://github.com/rvrsh3ll/TokenTactics
   <br />
 
+## 2FA bypass
+- Evilnginx2 - https://github.com/kgretzky/evilginx2
+- EvilnoVNC - https://github.com/JoelGMSec/EvilnoVNC
+
 ## Password Spray
 ### Tools
 - MSOLSpray - https://github.com/dafthack/MSOLSpray
