@@ -2,6 +2,8 @@
   <img width="500" height="500" src="./images/redteam_logo.png">
 </p>
 
+## ALL RED TEAMING NOTES 
+-NOTES https://www.ired.team/ (RED TEAMING)
 
 ## OSINT
 ### Passive Discovery
