@@ -2,6 +2,8 @@
   <img width="500" height="500" src="./images/redteam_logo.png">
 </p>
 
+## ALL RED TEAMING NOTES 
+-NOTES https://www.ired.team/ (RED TEAMING)
 
 ## OSINT
 ### Passive Discovery
@@ -85,7 +87,7 @@
 
 ## Infrastructure
 ### Cobal Strike
-- Beacon Command Cheatsheet - [CS Commands](https://github.com/bigb0sss/RedTeam/tree/master/CobaltStrike)
+- Beacon Command Cheatsheet - [CS Commands](https://github.com/bigb0sss/RedTeam-OffensiveSecurity/tree/master/01-CobaltStrike)
 - Cobalt Strike Training Review
   - [Part 1](https://medium.com/@bigb0ss/red-team-review-of-red-team-operations-with-cobalt-strike-2019-training-course-part-1-962c510565aa)
 - SharpeningCobaltStrike - https://github.com/cube0x0/SharpeningCobaltStrike
@@ -94,7 +96,7 @@
 - BOF (Beacon Object Files) - https://github.com/trustedsec/CS-Situational-Awareness-BOF
 
 #### Malleable C2
-- Malleable C2 (Guideline) - [CS4.0_guideline.profile](https://github.com/bigb0sss/RedTeam/blob/master/CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
+- Malleable C2 (Guideline) - [CS4.0_guideline.profile](https://github.com/bigb0sss/RedTeam-OffensiveSecurity/blob/master/01-CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
 - Malleable C2 Randomizer - https://fortynorthsecurity.com/blog/introducing-c2concealer/
 - SourcePoint - https://github.com/Tylous/SourcePoint
 
