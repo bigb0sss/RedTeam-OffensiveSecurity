@@ -95,6 +95,9 @@
 - Inline ExecuteAssembly - https://github.com/anthemtotheego/InlineExecute-Assembly (Executing .NET Assembly in the same process unline CS's Execute-Assembly)
 - BOF (Beacon Object Files) - https://github.com/trustedsec/CS-Situational-Awareness-BOF
 
+#### Control Pack C2
+- Control Pack - Multi-agent C2 framework designed with stealth and EDR/AV evasion at its core. (https://exploitpack.com/indexcontrolpack.html)
+
 #### Malleable C2
 - Malleable C2 (Guideline) - [CS4.0_guideline.profile](https://github.com/bigb0sss/RedTeam-OffensiveSecurity/blob/master/01-CobaltStrike/malleable_C2_profile/CS4.0_guideline.profile)
 - Malleable C2 Randomizer - https://fortynorthsecurity.com/blog/introducing-c2concealer/
@@ -193,6 +196,7 @@
 - Anti-Debug - https://anti-debug.checkpoint.com/
 
 ### Nix
+- Exploit Pack - Exploitation framework with over 39.500+ exploits, monthly zero-days and utilities - (https://exploitpack.com/indexexploitpack.html)
 
 
 ## VulnDB
