@@ -236,6 +236,7 @@
 - Stratus Red Team - https://github.com/DataDog/stratus-red-team
 
 ### Labs - CTF / Security Testing Practice
+- LabEx Cybersecurity Labs - https://labex.io/learn/cybersecurity (Interactive hands-on labs for penetration testing, Kali Linux, network security, web vulnerabilities, and red team techniques)
 - Hackthebox - https://www.hackthebox.eu/
 - Cyberseclab - https://www.cyberseclabs.co.uk/ (AD Focus)
 
