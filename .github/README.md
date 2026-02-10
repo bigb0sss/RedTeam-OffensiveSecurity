@@ -5,8 +5,8 @@
 # RED TEAMING TTP NOTES 
 - https://www.ired.team/ (RED TEAMING)
 
-# Reconnaisance / OSINT
 ---
+# Reconnaisance / OSINT
 ## Passive Discovery
 - Amass - https://github.com/OWASP/Amass (Attack Surface Mapping)
 - Metabigor - https://github.com/j3ssie/metabigor (Non-API OSINT)
@@ -34,9 +34,8 @@
 - s3viewer - https://github.com/SharonBrizinov/s3viewer (AWS)
 - endgame - https://github.com/salesforce/endgame (AWS)
 
-
-# Microsoft (Windows, Azure, etc.)
 ---
+# Microsoft (Windows, Azure, etc.)
 ## Active Discovery
 - ZGrab - https://github.com/zmap/zgrab (Banner grabber)
 - Hardenize - https://www.hardenize.com/ (Domain Lookup) 
@@ -44,9 +43,8 @@
 ## ADFS
 - ADFSpoof - https://github.com/fireeye/ADFSpoof (Forge ADFS security tokens)
 
-
-# Web Application Exploitation
 ---
+# Web Application Exploitation
 ## Resources
 - Wordpress-Exploit-Framework - https://github.com/rastating/wordpress-exploit-framework
 - Awesome-Web-Security - https://github.com/qazbnm456/awesome-web-security
@@ -56,9 +54,8 @@
 - SSRF - https://github.com/jdonsec/AllThingsSSRF
 - Skf-labs - https://owasp-skf.gitbook.io/asvs-write-ups/ (Great Write-ups)
 
-
-# Phishing
 ---
+# Phishing
 ## Resources 
 - Phishing techniques - https://blog.sublimesecurity.com/
 
@@ -74,7 +71,7 @@
 - Evilnginx2 - https://github.com/kgretzky/evilginx2
 - EvilnoVNC - https://github.com/JoelGMSec/EvilnoVNC
 
-
+---
 # Password-based Attack
 ---
 ## Password Spray Tools
@@ -90,7 +87,7 @@
 - CIRT - https://cirt.net/passwords
 - DefaultCreds-cheat-sheet - https://github.com/ihebski/DefaultCreds-cheat-sheet
 
-
+---
 # Infrastructure
 ---
 ## Proxy / IP Rotators
@@ -129,9 +126,8 @@
 ## Living Off Trusted Sites
 - LOTS - https://lots-project.com/ (Trusted sites for C2/Phishing/Downloading)
 
-
-# Post-Exploitation
 ---
+# Post-Exploitation
 ## Windows Active Directory Recon
 - Seatbelt - https://github.com/GhostPack/Seatbelt (Ghostpack)
 - DNS Enum - https://github.com/dirkjanm/adidnsdump
@@ -191,9 +187,8 @@
 ### Log/Trace Deletion
 - moonwalk - https://github.com/mufeedvh/moonwalk (Linux logs/filesystem timestamps deletion)
 
-
-# Exploit Dev
 ---
+# Exploit Dev
 ### Windows OS
 - https://github.com/Ondrik8/exploit
 - Undocumented Func (Win NT/2000/XP/Win7) - http://undocumented.ntinternals.net/
